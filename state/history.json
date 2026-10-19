@@ -1,0 +1,52 @@
+{
+ "weeks": [
+  {
+   "week": "2026-W43",
+   "date": "2026-10-19T09:27:07+00:00",
+   "sites": {
+    "Runway": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 348
+    },
+    "Pika": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 28
+    },
+    "Luma AI": {
+     "new": 1,
+     "updated": 0,
+     "removed": 0,
+     "pages": 22
+    },
+    "Kling AI": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "OpenAI Sora": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Google Veo": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "HeyGen": {
+     "new": 2,
+     "updated": 0,
+     "removed": 0,
+     "pages": 447
+    }
+   }
+  }
+ ]
+}

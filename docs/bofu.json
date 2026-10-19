@@ -1,0 +1,1035 @@
+{
+ "meta": {
+  "title": "Bottom-of-funnel content tracker",
+  "niche": "AI-powered video and image generation software (text-to-video, image-to-video, generative creative tools)",
+  "you": "Runway",
+  "generated": "2026-10-19T09:31:35+00:00",
+  "state_updated": "2026-10-19T09:27:07+00:00",
+  "repo": "nico497/Runway"
+ },
+ "types": [
+  [
+   "vs_you",
+   "Us vs. them"
+  ],
+  [
+   "alt",
+   "Alternatives"
+  ],
+  [
+   "switch",
+   "Switching and migration"
+  ],
+  [
+   "pricing",
+   "Rival pricing breakdowns"
+  ],
+  [
+   "vs_rivals",
+   "Rival vs. rival"
+  ],
+  [
+   "best",
+   "Best-of and roundups"
+  ],
+  [
+   "case",
+   "Case and customer stories"
+  ]
+ ],
+ "sites": [
+  {
+   "name": "Runway",
+   "tracked": 348,
+   "considered": 348,
+   "own_pricing": "https://runway.com/pricing",
+   "hubs": [
+    "https://runway.com/news/customers"
+   ]
+  },
+  {
+   "name": "Pika",
+   "tracked": 28,
+   "considered": 28,
+   "own_pricing": "https://pika.art/pricing",
+   "hubs": []
+  },
+  {
+   "name": "Luma AI",
+   "tracked": 22,
+   "considered": 22,
+   "own_pricing": "https://lumalabs.ai/pricing",
+   "hubs": [
+    "https://lumalabs.ai/case-studies"
+   ]
+  },
+  {
+   "name": "Kling AI",
+   "tracked": 0,
+   "considered": 0,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "OpenAI Sora",
+   "tracked": 0,
+   "considered": 0,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "Google Veo",
+   "tracked": 0,
+   "considered": 0,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "HeyGen",
+   "tracked": 577,
+   "considered": 432,
+   "own_pricing": "https://www.heygen.com/pricing",
+   "hubs": [
+    "https://www.heygen.com/customer-stories",
+    "https://www.heygen.com/enterprise/customer-stories",
+    "https://www.heygen.com/alternatives"
+   ]
+  }
+ ],
+ "vendors": [
+  "Pika",
+  "Luma AI",
+  "Kling AI",
+  "OpenAI Sora",
+  "Google Veo",
+  "HeyGen",
+  "Runway",
+  "Midjourney",
+  "Stability AI",
+  "Adobe Firefly",
+  "Haiper",
+  "Hailuo",
+  "Pixverse",
+  "Synthesia",
+  "ElevenLabs",
+  "D-ID"
+ ],
+ "excluded": {
+  "webinars, glossary, events and category pages": 15,
+  "templated pages": 130
+ },
+ "pages": [
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/48-hours-to-generate-a-film",
+   "path": "/customers/48-hours-to-generate-a-film",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/behind-the-scenes-of-an-under-armour-tv-commercial-powered-by-runway",
+   "path": "/customers/behind-the-scenes-of-an-under-armour-tv-commercial-powered-by-runway",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/behind-the-scenes-of-el-forastero-with-director-javier-de-la-chica",
+   "path": "/customers/behind-the-scenes-of-el-forastero-with-director-javier-de-la-chica",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/behind-the-scenes-of-hanaa",
+   "path": "/customers/behind-the-scenes-of-hanaa",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/behind-the-scenes-of-migration-with-director-jeremy-higgins",
+   "path": "/customers/behind-the-scenes-of-migration-with-director-jeremy-higgins",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/behind-the-scenes-of-the-great-dictator-with-creator-gabo-arora",
+   "path": "/customers/behind-the-scenes-of-the-great-dictator-with-creator-gabo-arora",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/chapman-student-filmmaker-uses-runway-wrestling-drama",
+   "path": "/customers/chapman-student-filmmaker-uses-runway-wrestling-drama",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/distorting-reality-with-dan-streit",
+   "path": "/customers/distorting-reality-with-dan-streit",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/from-traditional-agency-to-ai-studio",
+   "path": "/customers/from-traditional-agency-to-ai-studio",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/generating-new-worlds-for-madonnas-celebration-tour",
+   "path": "/customers/generating-new-worlds-for-madonnas-celebration-tour",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/hku-business-school-implements-runway-ai-tools-in-masters-programmes",
+   "path": "/customers/hku-business-school-implements-runway-ai-tools-in-masters-programmes",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-artists-used-runway-to-revive-a-shelved-project-into-a-multimedia-series",
+   "path": "/customers/how-artists-used-runway-to-revive-a-shelved-project-into-a-multimedia-series",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-bbc-studios-brought-a-live-avatar-to-broadcast-television-for-the-first-time",
+   "path": "/customers/how-bbc-studios-brought-a-live-avatar-to-broadcast-television-for-the-first-time",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-bentley-labs-is-using-runway-to-bring-critical-infrastructure-stories-to-life",
+   "path": "/customers/how-bentley-labs-is-using-runway-to-bring-critical-infrastructure-stories-to-life",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-eggplant-picture-and-sound-transformed-history-channels-life-after-people-with-runway",
+   "path": "/customers/how-eggplant-picture-and-sound-transformed-history-channels-life-after-people-with-runway",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-fremantle-is-bringing-the-worlds-greatest-artworks-to-life-with-runway",
+   "path": "/customers/how-fremantle-is-bringing-the-worlds-greatest-artworks-to-life-with-runway",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-havas-groups-ai-production-workflows-are-transforming-global-brand-campaigns",
+   "path": "/customers/how-havas-groups-ai-production-workflows-are-transforming-global-brand-campaigns",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-house-of-david-used-runway-to-become-amazons-latest-hit-series",
+   "path": "/customers/how-house-of-david-used-runway-to-become-amazons-latest-hit-series",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-j-garcia-uses-runway-api",
+   "path": "/customers/how-j-garcia-uses-runway-api",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-kevin-parry-achieves-virality-through-video-storytelling",
+   "path": "/customers/how-kevin-parry-achieves-virality-through-video-storytelling",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-kpf-is-incorporating-ai-video-into-architectural-workflows",
+   "path": "/customers/how-kpf-is-incorporating-ai-video-into-architectural-workflows",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-late-night-show-cbs-uses-runway",
+   "path": "/customers/how-late-night-show-cbs-uses-runway",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-musixmatch-uses-runways-api-to-bring-album-covers-to-life",
+   "path": "/customers/how-musixmatch-uses-runways-api-to-bring-album-covers-to-life",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-obsidian-uses-runway-to-power-campaigns-for-disney-nike-and-luxury-brands",
+   "path": "/customers/how-obsidian-uses-runway-to-power-campaigns-for-disney-nike-and-luxury-brands",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-runway-empowered-director-guido-callegari-to-change-perceptions-of-ai-in-italy",
+   "path": "/customers/how-runway-empowered-director-guido-callegari-to-change-perceptions-of-ai-in-italy",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-runway-powered-tools-cruise-control-pipeline",
+   "path": "/customers/how-runway-powered-tools-cruise-control-pipeline",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-shutterstock-and-runway-are-transforming-the-future-of-creative-content",
+   "path": "/customers/how-shutterstock-and-runway-are-transforming-the-future-of-creative-content",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-silverside-ai-builds-coca-colas-best-ads-for-65-percent-less",
+   "path": "/customers/how-silverside-ai-builds-coca-colas-best-ads-for-65-percent-less",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-smack-uses-runway-to-build-animated-towers-of-contemporary-allegory",
+   "path": "/customers/how-smack-uses-runway-to-build-animated-towers-of-contemporary-allegory",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-sva-is-bringing-runways-tools-into-mfa-computer-arts",
+   "path": "/customers/how-sva-is-bringing-runways-tools-into-mfa-computer-arts",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-tool-is-reimagining-the-commercial-production-process-with-runway",
+   "path": "/customers/how-tool-is-reimagining-the-commercial-production-process-with-runway",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-upenn-architecture-professors-transforming-3d-design-with-runway",
+   "path": "/customers/how-upenn-architecture-professors-transforming-3d-design-with-runway",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-upperfast-brought-unhcrs-fifa-world-cup-film-to-life-with-runway",
+   "path": "/customers/how-upperfast-brought-unhcrs-fifa-world-cup-film-to-life-with-runway",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/how-video-producer-quinn-murphy-uses-runway-to-create-videos-for-alicia-keys",
+   "path": "/customers/how-video-producer-quinn-murphy-uses-runway-to-create-videos-for-alicia-keys",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/inside-creative-campaigns-with-creative-director-sasha-kasiuha",
+   "path": "/customers/inside-creative-campaigns-with-creative-director-sasha-kasiuha",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/inside-salomons-latest-global-brand-campaign-built-on-runway",
+   "path": "/customers/inside-salomons-latest-global-brand-campaign-built-on-runway",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/inside-trusted-media-brands-latest-streaming-show-built-with-runway",
+   "path": "/customers/inside-trusted-media-brands-latest-streaming-show-built-with-runway",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/integrating-generative-ai-art-education-risd-daniel-lefcourt",
+   "path": "/customers/integrating-generative-ai-art-education-risd-daniel-lefcourt",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/new-balances-onur-yuce-gun-on-how-runways-ai-capabilities-are-revolutionizing-design",
+   "path": "/customers/new-balances-onur-yuce-gun-on-how-runways-ai-capabilities-are-revolutionizing-design",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/pioneering-ai-art-education-williams-college-new-school-debra-mcgrory",
+   "path": "/customers/pioneering-ai-art-education-williams-college-new-school-debra-mcgrory",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/runway-in-berlin",
+   "path": "/customers/runway-in-berlin",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/the-making-of-mars-and-siv",
+   "path": "/customers/the-making-of-mars-and-siv",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/ucla-film-tv-development-hans-martin-liebing",
+   "path": "/customers/ucla-film-tv-development-hans-martin-liebing",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/usc-school-cinematic-arts-partnership",
+   "path": "/customers/usc-school-cinematic-arts-partnership",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/customers/vallee-duhamel",
+   "path": "/customers/vallee-duhamel",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers/bonjour",
+   "path": "/news/customers/bonjour",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers/chime",
+   "path": "/news/customers/chime",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers/edelman-le-truc-why-brands-nyc-summit-2026",
+   "path": "/news/customers/edelman-le-truc-why-brands-nyc-summit-2026",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers/miro",
+   "path": "/news/customers/miro",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers/nvidia-nyc-summit-2026",
+   "path": "/news/customers/nvidia-nyc-summit-2026",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers/paramount-nyc-summit-2026",
+   "path": "/news/customers/paramount-nyc-summit-2026",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers/populous",
+   "path": "/news/customers/populous",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers/rga",
+   "path": "/news/customers/rga",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers/skyscanner",
+   "path": "/news/customers/skyscanner",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers/voidz",
+   "path": "/news/customers/voidz",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers/world-juggling-federation",
+   "path": "/news/customers/world-juggling-federation",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/addy-olubamiji",
+   "path": "/customer-stories/addy-olubamiji",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/advantive",
+   "path": "/customer-stories/advantive",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/ai-smart-ventures",
+   "path": "/customer-stories/ai-smart-ventures",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/anton-voroniuk",
+   "path": "/customer-stories/anton-voroniuk",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/attention-grabbing-media",
+   "path": "/customer-stories/attention-grabbing-media",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/bonsai-marketing",
+   "path": "/customer-stories/bonsai-marketing",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/colenso-bbdo",
+   "path": "/customer-stories/colenso-bbdo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/copient-ai",
+   "path": "/customer-stories/copient-ai",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/coursera",
+   "path": "/customer-stories/coursera",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/craig-veroni",
+   "path": "/customer-stories/craig-veroni",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/crystal-ninja",
+   "path": "/customer-stories/crystal-ninja",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/curt-landry-ministries",
+   "path": "/customer-stories/curt-landry-ministries",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/dolsten-and-co",
+   "path": "/customer-stories/dolsten-and-co",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/elb-learning",
+   "path": "/customer-stories/elb-learning",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/equity-trust-company",
+   "path": "/customer-stories/equity-trust-company",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/fameplay",
+   "path": "/customer-stories/fameplay",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/favoured",
+   "path": "/customer-stories/favoured",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/first-movers",
+   "path": "/customer-stories/first-movers",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/getitai",
+   "path": "/customer-stories/getitai",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/gold-coin",
+   "path": "/customer-stories/gold-coin",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/happy-cats",
+   "path": "/customer-stories/happy-cats",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/heather-gansel",
+   "path": "/customer-stories/heather-gansel",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/hubspot",
+   "path": "/customer-stories/hubspot",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/indegene",
+   "path": "/customer-stories/indegene",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/jacob-politte",
+   "path": "/customer-stories/jacob-politte",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/jim-mcdonner",
+   "path": "/customer-stories/jim-mcdonner",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/kevin-williams",
+   "path": "/customer-stories/kevin-williams",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/komatsu",
+   "path": "/customer-stories/komatsu",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/lattice",
+   "path": "/customer-stories/lattice",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/lev-mills",
+   "path": "/customer-stories/lev-mills",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/lisa-anugwom-narh",
+   "path": "/customer-stories/lisa-anugwom-narh",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/malecare",
+   "path": "/customer-stories/malecare",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/medheads",
+   "path": "/customer-stories/medheads",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/michael-vrlaku",
+   "path": "/customer-stories/michael-vrlaku",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/miro",
+   "path": "/customer-stories/miro",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/nick-krem",
+   "path": "/customer-stories/nick-krem",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/nutrition-raw",
+   "path": "/customer-stories/nutrition-raw",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/ogilvy",
+   "path": "/customer-stories/ogilvy",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/pedro-casanova",
+   "path": "/customer-stories/pedro-casanova",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/pray-com",
+   "path": "/customer-stories/pray-com",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/publicis-groupe",
+   "path": "/customer-stories/publicis-groupe",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/pyne-ai",
+   "path": "/customer-stories/pyne-ai",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/ratava",
+   "path": "/customer-stories/ratava",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/reid-ai",
+   "path": "/customer-stories/reid-ai",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/reply-io",
+   "path": "/customer-stories/reply-io",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/roberto-meza",
+   "path": "/customer-stories/roberto-meza",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/robin-simon",
+   "path": "/customer-stories/robin-simon",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/rosetta-stone",
+   "path": "/customer-stories/rosetta-stone",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/school-of-ai",
+   "path": "/customer-stories/school-of-ai",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/scott-henninger",
+   "path": "/customer-stories/scott-henninger",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/sibelco",
+   "path": "/customer-stories/sibelco",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/simulations-software",
+   "path": "/customer-stories/simulations-software",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/steve-johnson",
+   "path": "/customer-stories/steve-johnson",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/stratasys",
+   "path": "/customer-stories/stratasys",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/studio-47",
+   "path": "/customer-stories/studio-47",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/symmetry-healthy-life",
+   "path": "/customer-stories/symmetry-healthy-life",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/tamer-abdel",
+   "path": "/customer-stories/tamer-abdel",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/techmix",
+   "path": "/customer-stories/techmix",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/telemundo",
+   "path": "/customer-stories/telemundo",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/the-economist",
+   "path": "/customer-stories/the-economist",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/the-weather-network",
+   "path": "/customer-stories/the-weather-network",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/tim-stacey",
+   "path": "/customer-stories/tim-stacey",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/tomorrow-io",
+   "path": "/customer-stories/tomorrow-io",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/trivago",
+   "path": "/customer-stories/trivago",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/truly-finance",
+   "path": "/customer-stories/truly-finance",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/videoimagem",
+   "path": "/customer-stories/videoimagem",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/vision-creative-labs",
+   "path": "/customer-stories/vision-creative-labs",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/workday",
+   "path": "/customer-stories/workday",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/world-economic-forum",
+   "path": "/customer-stories/world-economic-forum",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/wurth-group",
+   "path": "/customer-stories/wurth-group",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/yangmun",
+   "path": "/customer-stories/yangmun",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/zarin-tv",
+   "path": "/customer-stories/zarin-tv",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/use-cases/customer-stories-and-testimonials",
+   "path": "/use-cases/customer-stories-and-testimonials",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/alternatives/heygen-vs-synthesia",
+   "path": "/alternatives/heygen-vs-synthesia",
+   "type": "vs_you",
+   "targets": [
+    "Synthesia"
+   ]
+  }
+ ]
+}
