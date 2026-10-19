@@ -1,0 +1,53 @@
+{
+  "title": "Bottom-of-funnel content tracker",
+  "niche": "AI-powered video and image generation software (text-to-video, image-to-video, generative creative tools)",
+  "you": "Runway",
+  "competitors": [
+    "Pika",
+    "Luma AI",
+    "Kling AI",
+    "OpenAI Sora",
+    "Google Veo",
+    "HeyGen"
+  ],
+  "vendors": {
+    "Pika": "pika\\.art|pika labs",
+    "Luma AI": "luma ?labs|luma ?ai|dream machine",
+    "Kling AI": "kling ?ai|klingai",
+    "OpenAI Sora": "\\bsora\\b",
+    "Google Veo": "\\bveo\\b|veo ?2|veo ?3",
+    "HeyGen": "heygen",
+    "Runway": "runway ?ml|runwayml|\\brunway\\b",
+    "Midjourney": "midjourney",
+    "Stability AI": "stability ?ai|stable diffusion",
+    "Adobe Firefly": "adobe firefly",
+    "Haiper": "haiper",
+    "Hailuo": "hailuo|minimax",
+    "Pixverse": "pixverse",
+    "Synthesia": "synthesia",
+    "ElevenLabs": "elevenlabs",
+    "D-ID": "\\bd-id\\b"
+  },
+  "audiences": [
+    ["Text-to-video", "text.?to.?video"],
+    ["Image-to-video", "image.?to.?video"],
+    ["AI video generation", "ai video generat"],
+    ["Filmmaking and film production", "filmmak|film production"],
+    ["Marketing and advertising content", "marketing (video|content)|ad(vertising)? creative"],
+    ["Social media content", "social media (video|content)|short.?form video"],
+    ["Generative AI", "generative ai|gen.?ai"],
+    ["Image generation", "image generat"],
+    ["Video editing", "video editing"],
+    ["Motion and animation", "motion graphics|animation"],
+    ["Avatars and talking heads", "ai avatar|talking head"],
+    ["API and developers", "\\bapi\\b|for developers|sdk"],
+    ["Enterprise and studios", "enterprise|studio(s)? use case"],
+    ["Pricing and plans", "pricing|credits|subscription plan"],
+    ["Model releases and updates", "model release|new model|version [0-9]"],
+    ["Ethics and copyright", "copyright|likeness|deepfake|ai ethics"],
+    ["Training and fine-tuning", "fine.?tun|custom model|training data"],
+    ["Consistency and control", "character consistency|camera control|motion control"],
+    ["Comparisons and benchmarks", "benchmark|vs\\.|comparison"],
+    ["Use cases and tutorials", "how to use|tutorial|use case"]
+  ]
+}
