@@ -3,7 +3,7 @@
   "title": "Bottom-of-funnel content tracker",
   "niche": "AI-powered video and image generation software (text-to-video, image-to-video, generative creative tools)",
   "you": "Runway",
-  "generated": "2026-10-19T09:31:35+00:00",
+  "generated": "2026-10-26T13:02:43+00:00",
   "state_updated": "2026-10-19T09:27:07+00:00",
   "repo": "nico497/Runway"
  },
@@ -40,8 +40,8 @@
  "sites": [
   {
    "name": "Runway",
-   "tracked": 348,
-   "considered": 348,
+   "tracked": 358,
+   "considered": 358,
    "own_pricing": "https://runway.com/pricing",
    "hubs": [
     "https://runway.com/news/customers"
@@ -49,15 +49,15 @@
   },
   {
    "name": "Pika",
-   "tracked": 28,
-   "considered": 28,
+   "tracked": 31,
+   "considered": 31,
    "own_pricing": "https://pika.art/pricing",
    "hubs": []
   },
   {
    "name": "Luma AI",
-   "tracked": 22,
-   "considered": 22,
+   "tracked": 23,
+   "considered": 23,
    "own_pricing": "https://lumalabs.ai/pricing",
    "hubs": [
     "https://lumalabs.ai/case-studies"
@@ -86,8 +86,8 @@
   },
   {
    "name": "HeyGen",
-   "tracked": 577,
-   "considered": 432,
+   "tracked": 584,
+   "considered": 437,
    "own_pricing": "https://www.heygen.com/pricing",
    "hubs": [
     "https://www.heygen.com/customer-stories",
@@ -115,7 +115,7 @@
   "D-ID"
  ],
  "excluded": {
-  "webinars, glossary, events and category pages": 15,
+  "webinars, glossary, events and category pages": 17,
   "templated pages": 130
  },
  "pages": [
@@ -935,6 +935,13 @@
    "site": "HeyGen",
    "url": "https://www.heygen.com/customer-stories/the-weather-network",
    "path": "/customer-stories/the-weather-network",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/the-world-according-to-reece",
+   "path": "/customer-stories/the-world-according-to-reece",
    "type": "case",
    "targets": []
   },
