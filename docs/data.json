@@ -2,16 +2,16 @@
  "meta": {
   "title": "Competitor Radar",
   "niche": "AI-powered video and image generation software (text-to-video, image-to-video, generative creative tools)",
-  "updated": "2026-10-26T12:56:33+00:00",
+  "updated": "2026-11-02T15:45:02+00:00",
   "window_days": 30,
   "repo": "nico497/Runway",
   "first_run": true,
   "errors": [],
-  "pending": 385,
+  "pending": 297,
   "analysis_stale": false,
   "per_run": 200,
   "tracking_since": "2026-10-19T09:27:07+00:00",
-  "tracking_days": 7
+  "tracking_days": 14
  },
  "types": [
   [
@@ -48,92 +48,99 @@
   ]
  ],
  "analysis": {
-  "summary": "Rivals are racing to plug into chat assistants and to host Kling 4.0. Runway publishes the most how-to content, while HeyGen leads on industry landing pages.",
+  "summary": "Runway and HeyGen publish the most. Both push AI video into agents and chat tools, while Pika and Luma publish little and Kling AI shows no pages.",
   "points": [
    {
-    "text": "Runway and Pika both put up Kling 4.0 pages, but Pika's says \"Coming Soon\" while Runway's is already live.",
+    "text": "Runway ships 17 new pages, mostly product and landing pages, while HeyGen balances launches with 5 Academy-style how-tos and 3 case studies.",
+    "names": [
+     "Runway",
+     "HeyGen"
+    ]
+   },
+   {
+    "text": "Runway, Pika and HeyGen all tie their video tools to chat and agent apps like ChatGPT, Claude and Manus.",
+    "names": [
+     "Runway",
+     "Pika",
+     "HeyGen"
+    ]
+   },
+   {
+    "text": "Kling 4.0 is a hot topic: Runway has a full launch page, while Pika only has a coming-soon page.",
+    "names": [
+     "Runway",
+     "Pika"
+    ]
+   }
+  ],
+  "plays": {
+   "Runway": {
+    "play": "Launches ads, agent, App Studio and Kling 4.0 pages, plus filmmaker and UGC guides.",
+    "aimed": "Marketers, filmmakers, brands, developers"
+   },
+   "Pika": {
+    "play": "Pushes its new H3 Flex model, image studio and ChatGPT app with a technical deep dive.",
+    "aimed": "Creators and model-curious early adopters"
+   },
+   "Luma AI": {
+    "play": "Publishes little: an About page, a learning center update and one research paper.",
+    "aimed": "Researchers and learners"
+   },
+   "Kling AI": {
+    "play": "No pages found on the site in this data, so no content play to read.",
+    "aimed": "n/a"
+   },
+   "HeyGen": {
+    "play": "Avatars, translation and developer API, backed by Academy tutorials, case studies and 130 tool pages.",
+    "aimed": "Business teams, developers, niche industries"
+   }
+  },
+  "shared": [
+   {
+    "title": "Video inside AI assistants",
+    "text": "Runway has MCP for ChatGPT, Claude and Cursor, plus a Claude Marketplace post. Pika launched inside ChatGPT. HeyGen has a Manus page. Chat apps are becoming a distribution channel.",
+    "names": [
+     "Runway",
+     "Pika",
+     "HeyGen"
+    ]
+   },
+   {
+    "title": "Kling 4.0 pages",
+    "text": "Runway has a launch page for Kling 4.0 with 30-second video. Pika has a coming-soon page. Both want searchers looking for that model.",
     "names": [
      "Runway",
      "Pika"
     ]
    },
    {
-    "text": "Three companies chased AI-assistant and agent users: Runway (MCP, Claude Marketplace), Pika (ChatGPT) and HeyGen (Manus).",
+    "title": "Research as credibility",
+    "text": "Runway has 1 research page, HeyGen has 2 updated ones, and Luma has its MARBLE paper. Small numbers, but it signals technical depth.",
     "names": [
      "Runway",
-     "Pika",
-     "HeyGen"
-    ]
-   },
-   {
-    "text": "HeyGen is the only rival publishing by industry: real estate, beauty and wellness, and financial services. Runway's new pages target UGC and ads instead.",
-    "names": [
-     "Runway",
-     "HeyGen"
-    ]
-   }
-  ],
-  "plays": {
-   "Runway": {
-    "play": "Pushes assistant integrations, Kling 4.0 and ads, backed by 6 how-to guides.",
-    "aimed": "Creators, marketers, filmmakers"
-   },
-   "Pika": {
-    "play": "Small launch burst: Kling 4.0 teaser, image editing studio, ChatGPT integration.",
-    "aimed": "Casual creators, ChatGPT users"
-   },
-   "Luma AI": {
-    "play": "Teaches users through a learning center and publishes one technical research paper.",
-    "aimed": "Learners and technical audiences"
-   },
-   "Kling AI": {
-    "play": "No pages in the data, so no content play to read.",
-    "aimed": "Not visible"
-   },
-   "HeyGen": {
-    "play": "Industry landing pages, avatar tools, its own video model, plus 130 templated /tool/ pages.",
-    "aimed": "Business teams and industry buyers"
-   }
-  },
-  "shared": [
-   {
-    "title": "Kling 4.0 and multi-model hubs",
-    "text": "Runway and Pika each have a Kling 4.0 page, and HeyGen sells \"Top AI Video Model in One Platform\". Platforms are pitching themselves as one place for many models.",
-    "names": [
-     "Runway",
-     "Pika",
-     "HeyGen"
-    ]
-   },
-   {
-    "title": "Assistant and agent integrations",
-    "text": "Runway (MCP, Claude Marketplace), Pika (inside ChatGPT) and HeyGen (Manus) launched pages meeting users inside other AI tools. Expect video generation to be sold as a feature of chat tools.",
-    "names": [
-     "Runway",
-     "Pika",
      "HeyGen"
     ]
    }
   ],
   "gaps": [
    {
-    "title": "Filmmaker case studies",
-    "text": "Only HeyGen published one case study, and it isn't about film. Runway could show real production teams using its tools to win over evaluators."
+    "title": "Step-by-step academy for filmmakers",
+    "text": "HeyGen runs a tutorial series on translation. No rival has a multi-part course on cinematic AI video workflows. Runway has only 6 how-tos."
    },
    {
-    "title": "Head-to-head buyer guides",
-    "text": "No company published a page comparing platforms this month. Runway could own honest comparisons for people choosing between AI video tools."
+    "title": "Customer case studies",
+    "text": "HeyGen has 3 new case studies and Runway has none. Pika and Luma have none. Filmmaker and brand stories could show real results."
    },
    {
-    "title": "Filmmaker workflow content",
-    "text": "Only Runway has a filmmaker's guide, and just one. Deeper pieces on pre-production, shot continuity and editing would reach a group rivals ignore."
+    "title": "Model comparison pages",
+    "text": "Only 1 Runway page targets comparing, and rivals have none. Honest head-to-head guides could reach people choosing between platforms."
    }
   ],
   "versus": {
-   "Pika": "Publishes far less (3 new pages vs Runway's 10) and has no how-to or research content. It matches Runway on Kling 4.0 and chat integrations.",
-   "Luma AI": "Publishes almost nothing new (1 page) and leans technical and educational. Runway ships more guides and more product pages.",
-   "Kling AI": "No pages appear in the data, so there is nothing to compare. Runway and Pika are the ones hosting its model.",
-   "HeyGen": "Much larger site (584 pages) with industry landing pages and templated tool pages. Runway has more how-to content but no industry pages."
+   "Pika": "Pika publishes far less (5 new pages vs 17) and focuses on its own model launches, without Runway's guides or marketing use cases.",
+   "Luma AI": "Luma publishes very little (2 new pages) and leans on learning and research, with no launch or buyer pages like Runway's.",
+   "Kling AI": "No pages appear in the data, so there is nothing to compare, though Runway and Pika both publish Kling 4.0 pages.",
+   "HeyGen": "HeyGen publishes at similar pace (16 new pages) but leans harder on tutorials, case studies, industry pages and updates, where Runway leans on launches."
   }
  },
  "sites": [
@@ -141,9 +148,9 @@
    "name": "Runway",
    "site": "https://runwayml.com",
    "you": true,
-   "n": 12,
-   "site_pages": 358,
-   "n_prev": 42,
+   "n": 19,
+   "site_pages": 365,
+   "n_prev": 51,
    "refreshed": 4,
    "mix": {
     "compare": 0,
@@ -152,14 +159,14 @@
     "research": 1,
     "case": 0,
     "opinion": 0,
-    "news": 1,
-    "landing": 4
+    "news": 3,
+    "landing": 9
    },
    "stages": {
     "learning": 6,
-    "comparing": 0,
-    "buying": 6,
-    "customers": 0
+    "comparing": 1,
+    "buying": 11,
+    "customers": 1
    },
    "topics": [
     "ai video generation in chatgpt claude",
@@ -168,10 +175,10 @@
     "ai video prompt packing techniques",
     "runway joins claude marketplace"
    ],
-   "unclassified": 67,
+   "unclassified": 17,
    "removed": 0,
    "removed_titles": [],
-   "new": 10,
+   "new": 17,
    "updated": 2,
    "bulk": [],
    "programmatic": [],
@@ -179,20 +186,20 @@
    "error": null,
    "method": "sitemap",
    "url": "https://runway.com/sitemap.xml",
-   "pages": 358,
+   "pages": 363,
    "undated": 0,
-   "new_urls": 10,
-   "play": "Pushes assistant integrations, Kling 4.0 and ads, backed by 6 how-to guides.",
-   "aimed": "Creators, marketers, filmmakers"
+   "new_urls": 7,
+   "play": "Launches ads, agent, App Studio and Kling 4.0 pages, plus filmmaker and UGC guides.",
+   "aimed": "Marketers, filmmakers, brands, developers"
   },
   {
    "name": "Pika",
    "site": "https://pika.art",
    "you": false,
-   "n": 3,
-   "site_pages": 31,
+   "n": 7,
+   "site_pages": 34,
    "n_prev": 3,
-   "refreshed": 0,
+   "refreshed": 2,
    "mix": {
     "compare": 0,
     "howto": 0,
@@ -200,43 +207,45 @@
     "research": 0,
     "case": 0,
     "opinion": 0,
-    "news": 1,
-    "landing": 2
+    "news": 4,
+    "landing": 3
    },
    "stages": {
     "learning": 1,
     "comparing": 0,
-    "buying": 2,
-    "customers": 0
+    "buying": 3,
+    "customers": 3
    },
    "topics": [
+    "pika product releases and updates",
     "kling 4.0 ai video generator",
     "ai image editing and generation",
-    "pika chatgpt plugin integration announcement"
+    "pika chatgpt plugin integration announcement",
+    "h3 flex video generation model"
    ],
    "unclassified": 0,
    "removed": 0,
    "removed_titles": [],
-   "new": 3,
-   "updated": 0,
+   "new": 5,
+   "updated": 2,
    "bulk": [],
    "programmatic": [],
    "ok": true,
    "error": null,
    "method": "sitemap",
    "url": "https://pika.art/sitemap.xml",
-   "pages": 31,
-   "undated": 17,
+   "pages": 34,
+   "undated": 18,
    "new_urls": 3,
-   "play": "Small launch burst: Kling 4.0 teaser, image editing studio, ChatGPT integration.",
-   "aimed": "Casual creators, ChatGPT users"
+   "play": "Pushes its new H3 Flex model, image studio and ChatGPT app with a technical deep dive.",
+   "aimed": "Creators and model-curious early adopters"
   },
   {
    "name": "Luma AI",
    "site": "https://lumalabs.ai",
    "you": false,
-   "n": 2,
-   "site_pages": 23,
+   "n": 3,
+   "site_pages": 24,
    "n_prev": 0,
    "refreshed": 3,
    "mix": {
@@ -247,22 +256,23 @@
     "case": 0,
     "opinion": 0,
     "news": 0,
-    "landing": 1
+    "landing": 2
    },
    "stages": {
-    "learning": 2,
+    "learning": 3,
     "comparing": 0,
     "buying": 0,
     "customers": 0
    },
    "topics": [
     "luma ai learning resources and tutorials",
-    "sequence parallelism multimodal attention"
+    "sequence parallelism multimodal attention",
+    "ai video image generation company"
    ],
    "unclassified": 0,
    "removed": 0,
    "removed_titles": [],
-   "new": 1,
+   "new": 2,
    "updated": 1,
    "bulk": [],
    "programmatic": [],
@@ -270,11 +280,11 @@
    "error": null,
    "method": "sitemap",
    "url": "https://lumalabs.ai/sitemap.xml",
-   "pages": 23,
+   "pages": 24,
    "undated": 0,
    "new_urls": 1,
-   "play": "Teaches users through a learning center and publishes one technical research paper.",
-   "aimed": "Learners and technical audiences"
+   "play": "Publishes little: an About page, a learning center update and one research paper.",
+   "aimed": "Researchers and learners"
   },
   {
    "name": "Kling AI",
@@ -315,8 +325,8 @@
    "pages": 0,
    "undated": 0,
    "new_urls": 0,
-   "play": "No pages in the data, so no content play to read.",
-   "aimed": "Not visible"
+   "play": "No pages found on the site in this data, so no content play to read.",
+   "aimed": "n/a"
   },
   {
    "name": "OpenAI Sora",
@@ -400,38 +410,40 @@
    "name": "HeyGen",
    "site": "https://www.heygen.com",
    "you": false,
-   "n": 11,
-   "site_pages": 584,
-   "n_prev": 123,
-   "refreshed": 4,
+   "n": 26,
+   "site_pages": 595,
+   "n_prev": 97,
+   "refreshed": 11,
    "mix": {
     "compare": 0,
-    "howto": 1,
+    "howto": 5,
     "list": 0,
-    "research": 1,
-    "case": 1,
+    "research": 2,
+    "case": 3,
     "opinion": 0,
     "news": 1,
-    "landing": 7
+    "landing": 15
    },
    "stages": {
-    "learning": 3,
+    "learning": 8,
     "comparing": 2,
-    "buying": 5,
-    "customers": 1
+    "buying": 9,
+    "customers": 7
    },
    "topics": [
+    "ai video generation api for developers",
+    "ai avatar video generation",
     "ai video generation models platform",
-    "ai avatar video generator",
-    "ai video generator for real estate",
-    "ai video generation research and engineering",
-    "ai video generation model"
+    "code-to-video ai benchmark leaderboard",
+    "ai video generation automation"
    ],
-   "unclassified": 157,
-   "removed": 0,
-   "removed_titles": [],
-   "new": 8,
-   "updated": 3,
+   "unclassified": 133,
+   "removed": 1,
+   "removed_titles": [
+    "Data Handling Ethics and Content Authenticity at HeyGen | HeyGen"
+   ],
+   "new": 16,
+   "updated": 10,
    "bulk": [],
    "programmatic": [
     {
@@ -444,14 +456,434 @@
    "error": null,
    "method": "sitemap",
    "url": "https://www.heygen.com/sitemap.xml",
-   "pages": 583,
+   "pages": 594,
    "undated": 0,
-   "new_urls": 7,
-   "play": "Industry landing pages, avatar tools, its own video model, plus 130 templated /tool/ pages.",
-   "aimed": "Business teams and industry buyers"
+   "new_urls": 12,
+   "play": "Avatars, translation and developer API, backed by Academy tutorials, case studies and 130 tool pages.",
+   "aimed": "Business teams, developers, niche industries"
   }
  ],
  "pages": [
+  {
+   "site": "Runway",
+   "url": "https://runway.com/product/ads",
+   "title": "Runway Ads | An autonomous engine for performance marketing",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI autonomous ad generation and optimization",
+   "search": "autonomous video ad generation platform",
+   "why": "Showcases new product feature to drive early access signups and conversions."
+  },
+  {
+   "site": "Pika",
+   "url": "https://pika.art/blog",
+   "title": "Blog — Pika",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "updated",
+   "published": "2026-09-24T00:00:00+00:00",
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Pika product releases and updates",
+   "search": "Pika video generation AI news releases",
+   "why": "Keeps existing users and API members informed of new features and product launches."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/ai-video-api",
+   "title": "HeyGen Video: AI Video Generation API for Developers",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video generation API for developers",
+   "search": "AI video API for developers text to video",
+   "why": "Showcases API capabilities with pricing and demos to convert developer buyers."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/avatars/avatar-iv",
+   "title": "Create Talking Photo Avatars in 1280p+ HD Resolution | HeyGen",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI avatar video generation",
+   "search": "create talking avatar from photo",
+   "why": "Showcases flagship product with free trial to convert interested users into creators."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+   "title": "Code2Video Benchmark: Evaluating AI Agents on Motion Design | HeyGen Research",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "Code-to-video AI benchmark leaderboard",
+   "search": "code-to-video AI benchmark evaluation motion design",
+   "why": "Establishes HeyGen as research authority in AI motion graphics generation."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/agent",
+   "title": "AI Video Agent | Create and Automate Videos with AI | HeyGen",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video generation automation",
+   "search": "AI video generator agent",
+   "why": "Showcases AI Video Agent features to convert prospects into users."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/research",
+   "title": "AI Research | HeyGen",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "updated",
+   "published": "2026-10-14T00:00:00+00:00",
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "AI video generation research and engineering",
+   "search": "AI video generation research papers",
+   "why": "Establishes technical credibility and thought leadership in AI video generation field."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/trust-and-safety",
+   "title": "AI Ethics and Trust with Video Generation | HeyGen",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI ethics and trust in video generation",
+   "search": "AI video generation security ethics compliance",
+   "why": "Builds credibility with security-conscious buyers researching responsible AI tools."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/translate",
+   "title": "AI Video Translator : Translate Videos into 175+ Languages",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video translation with lip sync",
+   "search": "translate videos into multiple languages",
+   "why": "Converts interested users into free trial sign-ups for video translation feature."
+  },
+  {
+   "site": "Pika",
+   "url": "https://pika.art/model/kling-4-0",
+   "title": "Kling 4.0 AI Video Generator — Coming Soon | Pika",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-10-26T12:56:33+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Kling 4.0 AI video generator",
+   "search": "Kling 4.0 AI video generator features",
+   "why": "Showcases upcoming product capabilities to convert early adopters before launch."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/company-news/runway-ads",
+   "title": "Runway News | Runway Ads Is Generally Available",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": "2026-10-27T16:11:00+00:00",
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "news",
+   "stage": "buying",
+   "topic": "Runway Ads feature launch availability",
+   "search": "AI ad generator for marketing teams",
+   "why": "Shows new product feature with real performance metrics to attract ad buyers and agencies."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/company-news/introducing-runway-app-studio",
+   "title": "Runway News | Introducing Runway App Studio",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": "2026-10-26T20:31:00+00:00",
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Runway App Studio launch announcement",
+   "search": "Runway App Studio custom AI apps",
+   "why": "Announces new feature to retain current users and showcase innovation to team."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/reports/creative-canvas-commerce",
+   "title": "A new creative canvas for commerce",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "AI-powered creative tools for retail",
+   "search": "generative AI for ecommerce marketing campaigns",
+   "why": "Shows retail/ecommerce teams how Runway solves creative production faster than manual workflows."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/morningbrew",
+   "title": "Runway | AI Image and Video Generator",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video and image generation tools",
+   "search": "AI text to video image generator",
+   "why": "Converts early-stage prospects into paying customers with special promotional offer."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/product/agent",
+   "title": "Runway Agent | Marketing content that drives revenue",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI marketing agent for campaigns",
+   "search": "AI marketing agent generate campaigns",
+   "why": "Showcases AI Agent product to marketers ready to adopt or upgrade their workflow."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/product/app-studio",
+   "title": "App Studio: Build your own creative apps | Runway",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Build custom AI creative apps",
+   "search": "app builder AI video image generation",
+   "why": "Showcases core product feature to convert users building custom workflows into app builders."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/lp/product-nb-search-r2/b",
+   "title": "Runway | AI Image and Video Generator",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI image and video generation",
+   "search": "AI image and video generator",
+   "why": "Converts prospects ready to try AI video/image creation tools with product showcase."
+  },
+  {
+   "site": "Pika",
+   "url": "https://pika.art/pika-h3-flex",
+   "title": "Pika H3 Flex — Faster-than-real-time video model",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "H3 Flex video generation model",
+   "search": "faster than real-time video generation AI",
+   "why": "Showcases flagship product capabilities and conversion paths to API and trial signup."
+  },
+  {
+   "site": "Pika",
+   "url": "https://pika.art/blog/pika-h3-flex",
+   "title": "Introducing Pika H3 Flex",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": "2026-10-29T00:00:00+00:00",
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Pika H3 Flex video generation model",
+   "search": "Pika H3 Flex model features announcement",
+   "why": "Showcases new product capabilities to existing and prospective creative users."
+  },
+  {
+   "site": "Pika",
+   "url": "https://pika.art/blog/pika-h3-flex-research",
+   "title": "Pika H3 Flex Technical Deep Dive",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": "2026-10-29T00:00:00+00:00",
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Pika H3 Flex video model launch",
+   "search": "Pika H3 Flex real-time video generation",
+   "why": "Announces proprietary advancement and demonstrates technical superiority over competitors."
+  },
+  {
+   "site": "Luma AI",
+   "url": "https://lumalabs.ai/about",
+   "title": "About Luma | Luma",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI video image generation company",
+   "search": "AI video generation software",
+   "why": "Establishes company credibility and positions Luma as an AI frontier model leader."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/annette-rowe",
+   "title": "How Annette Rowe Creates Mental Health Videos with HeyGen",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "case",
+   "stage": "customers",
+   "topic": "Mental health counselor creates video course",
+   "search": "create mental health videos without filming",
+   "why": "Demonstrates HeyGen's value for solo creators and busy professionals in education."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/geniverse/heygen-insiders",
+   "title": "HeyGen Insiders | Get paid for the views your videos earn",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "landing",
+   "stage": "customers",
+   "topic": "Creator partnership program payouts",
+   "search": "get paid for video views creator program",
+   "why": "Incentivizes existing creators to produce and share HeyGen videos on social media platforms."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/voice-changer",
+   "title": "AI Voice Changer: Change Your Voice, Keep Your Delivery",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI voice changer for video production",
+   "search": "AI voice changer for videos",
+   "why": "Educates users on voice-changing capabilities and encourages playground trial signup."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/research/how-a-video-company-built-the-no-1-voice-model",
+   "title": "How a Video Company Built the #1 Voice Model | HeyGen",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": "2026-10-26T00:00:00+00:00",
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "case",
+   "stage": "learning",
+   "topic": "AI voice model development strategy",
+   "search": "best AI voice model comparison",
+   "why": "Positions HeyGen as voice innovator with superior technology backed by real user data."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/academy/localization/preview-export-and-download-translations",
+   "title": "Preview, Export, and Download Translated Videos | HeyGen Academy",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "Preview export download translated videos",
+   "search": "how to export translated videos",
+   "why": "Guides existing users through video translation workflow completion."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/academy/localization/translation-advanced-settings-and-engine-options",
+   "title": "Translation Advanced Settings and Engine Options | HeyGen Academy",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "Video translation advanced settings",
+   "search": "HeyGen video translation engine options",
+   "why": "Helps existing customers configure translation features for optimal results."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/academy/localization/before-you-start",
+   "title": "Before You Start Translating Videos | HeyGen Academy",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "Video translation setup guide",
+   "search": "how to translate videos HeyGen",
+   "why": "Guides existing users through initial setup for the video translation feature."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/academy/localization/proofread-your-translation",
+   "title": "Proofread Your Video Translation | HeyGen Academy",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "Proofread video translation scripts",
+   "search": "how to proofread video translation",
+   "why": "Guides existing users through the proofread workflow step-by-step."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/heygen-answers",
+   "title": "HeyGen Answers: Everything About HeyGen, Answered | HeyGen",
+   "date": "2026-11-02T15:45:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-02T15:45:02+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "HeyGen AI video platform features",
+   "search": "what is HeyGen AI video generator",
+   "why": "Explains what HeyGen does, its capabilities and competitive advantages for new prospects."
+  },
   {
    "site": "Runway",
    "url": "https://runway.com/mcp",
@@ -465,20 +897,6 @@
    "topic": "AI video generation in ChatGPT Claude",
    "search": "generate video in ChatGPT Claude",
    "why": "Converts users already in ChatGPT or Claude into Runway customers via MCP integration."
-  },
-  {
-   "site": "Runway",
-   "url": "https://runway.com/product/ads",
-   "title": "Runway Ads | An autonomous engine for performance marketing",
-   "date": "2026-10-26T12:56:33+00:00",
-   "kind": "updated",
-   "published": null,
-   "first_seen": "2026-10-19T09:27:07+00:00",
-   "type": "landing",
-   "stage": "buying",
-   "topic": "AI autonomous ad generation and optimization",
-   "search": "autonomous video ad generation platform",
-   "why": "Showcases new product feature to drive early access signups and conversions."
   },
   {
    "site": "Luma AI",
@@ -678,20 +1096,6 @@
   },
   {
    "site": "Pika",
-   "url": "https://pika.art/model/kling-4-0",
-   "title": "Kling 4.0 AI Video Generator — Coming Soon | Pika",
-   "date": "2026-10-26T12:56:33+00:00",
-   "kind": "new",
-   "published": null,
-   "first_seen": "2026-10-26T12:56:33+00:00",
-   "type": "landing",
-   "stage": "buying",
-   "topic": "Kling 4.0 AI video generator",
-   "search": "Kling 4.0 AI video generator features",
-   "why": "Showcases upcoming product capabilities to convert early adopters before launch."
-  },
-  {
-   "site": "Pika",
    "url": "https://pika.art/image-studio",
    "title": "Pika Image Studio — Creative image editing and design",
    "date": "2026-10-26T12:56:33+00:00",
@@ -829,6 +1233,762 @@
    "topic": "HeyGen Voice AI model demo",
    "search": "HeyGen Voice AI demo webinar",
    "why": "Showcases their latest voice AI product superiority against competing models like ElevenLabs."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/car-dealerships",
+   "title": "AI Video for Car Dealerships & Auto Ads | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video generation for car dealerships",
+   "search": "AI video car dealership inventory ads",
+   "why": "Converts dealerships seeking faster, cheaper inventory video production into paying customers."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/medical-clinics",
+   "title": "AI Video Marketing for Clinics & Dental | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video for medical clinics",
+   "search": "AI video marketing for dental clinics",
+   "why": "Targets clinic owners ready to generate professional marketing videos without filming or patient releases."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/fitness-studios",
+   "title": "AI Gym & Fitness Studio Video Maker | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video for fitness studios",
+   "search": "gym fitness studio video maker",
+   "why": "Targets fitness businesses ready to create promotional videos efficiently with AI."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/fashion-brands",
+   "title": "AI Fashion Video Generator for Brands | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI fashion video generation for brands",
+   "search": "AI video generator fashion brands lookbooks",
+   "why": "Demonstrates AI fashion video capabilities to convert fashion brands into customers."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/beauty",
+   "title": "AI Beauty & Skincare Video Ads | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI beauty video generation",
+   "search": "AI beauty video ads generator",
+   "why": "Converts beauty brands ready to generate product launch videos and commercials with AI."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/pets",
+   "title": "AI Pet Video Generator for Pet Brands | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI pet video generator",
+   "search": "AI video generator for pet brands",
+   "why": "Converts pet brands and groomers ready to create AI-generated video content with Runway."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/hotels",
+   "title": "AI Hotel & Travel Video Maker | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video generation for hotels",
+   "search": "AI hotel video maker from photos",
+   "why": "Demonstrates ROI for hospitality businesses ready to adopt video marketing."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/agriculture",
+   "title": "AI Video for Agriculture & Farm Equipment | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video generation for agriculture",
+   "search": "equipment photos to video AI agriculture",
+   "why": "Showcases specific agriculture use case to convert equipment brands and dealers into customers."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/weddings",
+   "title": "AI Wedding Video: Venues, Planners & Studios | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI wedding video generation",
+   "search": "AI wedding video generator",
+   "why": "Showcases wedding-specific AI video features to convert venues, planners, and photographers into customers."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/beverages",
+   "title": "AI Beverage Commercials from Product Photos | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI beverage commercial video generation",
+   "search": "make beverage ads with AI",
+   "why": "Captures drink brands ready to create ads fast from product photos."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/jewelry",
+   "title": "AI Jewelry & Watch Video from Product Photos | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "AI jewelry video generation",
+   "search": "AI jewelry video from product photos",
+   "why": "Showcases specific use case to attract jewelry/watch ecommerce brands evaluating AI video tools."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/ai-music-video-generator",
+   "title": "AI Music Video Generator | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI music video generator",
+   "search": "AI music video generator",
+   "why": "Converts musicians wanting quick, affordable music videos into customers trying Runway free."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/microdramas",
+   "title": "AI Microdrama Maker: Vertical Short Drama Series | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI microdrama generation",
+   "search": "make vertical short drama series AI",
+   "why": "Showcases a specific product feature to creators ready to produce vertical drama content."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/use-cases/education-videos",
+   "title": "AI Educational Video Maker: Explainers, Training and Courses | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "AI educational video generator",
+   "search": "educational video maker AI explainers training",
+   "why": "Shows Runway's capabilities for education use case to attract training and course creators."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/staff-picks",
+   "title": "Featured AI-Generated Content | Runway AI",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI-generated video showcases",
+   "search": "best AI generated videos examples",
+   "why": "Demonstrates platform capabilities through curated community work to inspire new users."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/ai-for-ads",
+   "title": "AI Video for Advertising & Marketing | Runway AI",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI video generation for advertising",
+   "search": "AI video generation advertising marketing",
+   "why": "Educates marketers on using AI for faster ad production and creative workflows."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/ai-for-gaming",
+   "title": "AI Video Tools for Game Development | Runway AI",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI video tools for game development",
+   "search": "AI tools for game development video",
+   "why": "Educates game developers on using Runway's AI for faster asset and content creation."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/ai-for-vfx",
+   "title": "AI Visual Effects Tools | Runway AI",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI visual effects tools",
+   "search": "AI visual effects software VFX",
+   "why": "Educates VFX professionals on using Runway's generative AI for faster production workflows."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/gen48",
+   "title": "48-Hour AI Film Challenge | Gen:48 by Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "AI film challenge winners gallery",
+   "search": "Gen:48 Runway filmmaking challenge winners",
+   "why": "Showcases user-generated content from competition to inspire community participation and demonstrate platform capabilities."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/customers",
+   "title": "Customer Stories | Runway News",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "Enterprise customer stories",
+   "search": "how companies use Runway AI video",
+   "why": "Demonstrates real-world ROI to convince enterprise buyers to adopt Runway."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/company-news",
+   "title": "Company News | Runway News",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "news",
+   "stage": "learning",
+   "topic": "Runway AI video generation news",
+   "search": "Runway AI news product updates",
+   "why": "Builds brand authority and keeps audience informed about product developments."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/safety",
+   "title": "Safety | Runway News",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Responsible AI development safety",
+   "search": "generative AI safety responsible development",
+   "why": "Establishes thought leadership on ethical AI practices and regulatory responsibility."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/research",
+   "title": "Research | Runway News",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "AI research papers and breakthroughs",
+   "search": "Runway AI research papers demos",
+   "why": "Establishes Runway as innovative AI leader through research contributions."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/engineering",
+   "title": "Engineering | Runway News",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Runway engineering and infrastructure",
+   "search": "how runway AI video software built",
+   "why": "Builds credibility with users by sharing technical expertise and platform development insights."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/news/developers",
+   "title": "Developers | Runway News",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "news",
+   "stage": "learning",
+   "topic": "Developer updates and API integrations",
+   "search": "Runway API developer documentation examples",
+   "why": "Attracts developers exploring API capabilities and integration possibilities."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/solutions/industry/media-entertainment",
+   "title": "Media and Entertainment | Runway AI",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI video generation for media entertainment",
+   "search": "AI tools for film and TV production",
+   "why": "Shows media/entertainment industry how Runway solves creative production workflows."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/solutions/industry/marketing-advertising",
+   "title": "Marketing and Advertising | Runway AI",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video generation for marketing",
+   "search": "AI tools for marketing campaigns advertising",
+   "why": "Showcases specific creative solutions to win budget from marketing and advertising teams."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/solutions/industry/product-design",
+   "title": "Runway for Product Design | AI-Powered Product Visualization and Development",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI product design visualization tools",
+   "search": "AI product design visualization software",
+   "why": "Targets product designers and brands ready to adopt AI tools for faster prototyping and visualization."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/solutions/industry/professional-services",
+   "title": "AI for Professional Services | Client Proposals and Presentations | Runway",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "AI video generation for professional services",
+   "search": "AI for client proposals presentations",
+   "why": "Targets professional services buyers evaluating AI tools for pitches and deliverables."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/solutions/industry/gaming-interactive",
+   "title": "Gaming and Interactive | Runway AI",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video generation for game development",
+   "search": "AI tools for game developers animation",
+   "why": "Targets game studios evaluating AI tools for animation, character performance, and production workflow."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/solutions/industry/education",
+   "title": "Education | Runway AI",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video generation for education",
+   "search": "AI video generation tools for students",
+   "why": "Showcases education-specific use cases to convince institutions to purchase Runway for classrooms."
+  },
+  {
+   "site": "Runway",
+   "url": "https://runway.com/solutions/industry/architecture-design",
+   "title": "Architecture and Design | Runway AI",
+   "date": "2026-10-26T12:54:01+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI tools for architecture design",
+   "search": "architecture design visualization AI software",
+   "why": "Converts architecture firms considering Runway by demonstrating time savings and client pitch improvements."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/learning-development/microlearning-videos",
+   "title": "AI Microlearning Videos | Create Short Training Videos",
+   "date": "2026-10-23T10:04:56+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI microlearning video creation",
+   "search": "create microlearning videos training employees",
+   "why": "Converts L&D teams ready to solve employee training completion with video."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/avatars/ugc",
+   "title": "AI UGC Video Generator | Make Viral UGC Ads in Minutes",
+   "date": "2026-10-23T10:04:29+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI UGC video generation",
+   "search": "AI UGC video generator make ads",
+   "why": "Converts buyers seeking ready-made AI actors for viral ad creation at scale."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/models/heygen-video",
+   "title": "HeyGen Video 1: Text, Image and Reference to Video",
+   "date": "2026-10-22T19:13:31+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "Text-to-video generation model",
+   "search": "best AI video generator text to video",
+   "why": "Establishes HeyGen Video as top-ranked model to attract early-stage researchers."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/playbook/heygen-for-marketers-jumpstart-guide",
+   "title": "HeyGen for Marketers: The Ultimate Jumpstart Guide to AI Video Creation",
+   "date": "2026-10-22T13:52:55+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AI video creation for marketers",
+   "search": "how to create marketing videos with AI",
+   "why": "Educates marketers on HeyGen's capabilities and how-to use it for campaigns."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/use-cases/product-explainers",
+   "title": "Create AI-Powered Product Explainer Videos in Minutes | HeyGen",
+   "date": "2026-10-21T11:03:47+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI product explainer video creation",
+   "search": "create product explainer videos AI",
+   "why": "Targets marketers ready to solve product video production at scale and speed."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/alternatives/heygen-vs-d-id",
+   "title": "HeyGen vs D-ID: AI Generated Talking Head Comparison",
+   "date": "2026-10-21T11:03:47+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "HeyGen vs D-ID AI video generators",
+   "search": "HeyGen vs D-ID comparison",
+   "why": "Captures buyers comparing HeyGen with D-ID to make a final platform choice."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/alternatives/heygen-vs-deepbrain",
+   "title": "Top AI Video Generator for You - HeyGen vs DeepBrain | HeyGen",
+   "date": "2026-10-21T11:03:47+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "HeyGen vs DeepBrain AI video generator",
+   "search": "HeyGen vs DeepBrain AI video generator",
+   "why": "Converts buyers evaluating competitors by showing HeyGen's feature and pricing advantages."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/use-cases/learning-courses",
+   "title": "AI-Driven Video Learning Courses | HeyGen Use Cases",
+   "date": "2026-10-21T11:03:47+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI video creation for learning courses",
+   "search": "create online learning courses with AI video",
+   "why": "Attracts L&D professionals researching AI solutions for course creation and scaling."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/use-cases/ai-video-ads",
+   "title": "Create High-Performing AI Video Ads in Minutes | HeyGen",
+   "date": "2026-10-21T11:03:47+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video ads creation",
+   "search": "create AI video ads fast",
+   "why": "Convert marketers ready to generate ads at scale using AI video tools."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/use-cases/how-to-videos",
+   "title": "Create Engaging How-To and Tutorial Videos Fast with AI | HeyGen",
+   "date": "2026-10-21T11:03:47+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Create how-to tutorial videos with AI",
+   "search": "how to make tutorial videos fast",
+   "why": "Positions HeyGen as solution for businesses creating training and onboarding content at scale."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/use-cases/sales-outreach",
+   "title": "Boost Sales with Personalized AI Video Outreach | HeyGen",
+   "date": "2026-10-21T11:03:47+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video creation for sales outreach",
+   "search": "AI video for sales outreach personalized",
+   "why": "Showcases HeyGen's sales video capabilities to convert prospects exploring video personalization solutions."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/use-cases/product-announcements",
+   "title": "Create Engaging Product Announcement Videos Instantly | HeyGen",
+   "date": "2026-10-21T11:03:47+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI product announcement video creation",
+   "search": "create product announcement videos AI",
+   "why": "Showcases specific use case to convert marketing teams ready to produce videos."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/use-cases/social-media",
+   "title": "Create Scroll-Stopping Social Media Videos with AI | HeyGen",
+   "date": "2026-10-21T11:03:47+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI social media video creation",
+   "search": "create social media videos with AI",
+   "why": "Converts marketers seeking faster, cheaper social media video production solutions."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/alternatives",
+   "title": "HeyGen Alternatives & Comparisons",
+   "date": "2026-10-21T11:01:03+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "AI avatar video generation tools",
+   "search": "HeyGen alternatives comparison",
+   "why": "Captures buyers evaluating HeyGen against competitors by showcasing superior features."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/alternatives/heygen-vs-colossyan",
+   "title": "AI Video Generator Comparison: HeyGen vs Colossyan | HeyGen",
+   "date": "2026-10-21T11:00:11+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "HeyGen vs Colossyan video generator comparison",
+   "search": "HeyGen vs Colossyan AI video generator",
+   "why": "Captures buyers comparing HeyGen with a direct competitor before deciding."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/apps/ai-face-swap",
+   "title": "AI Face Swap : Swap Faces in Video in Minutes",
+   "date": "2026-10-21T11:00:11+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI face swap video generator",
+   "search": "AI face swap video free",
+   "why": "Showcases core feature with free trial to convert users seeking video creation tools."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/alternatives/heygen-vs-elai",
+   "title": "Best AI Video Generator Comparison: HeyGen vs Elai | HeyGen",
+   "date": "2026-10-21T11:00:11+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "HeyGen vs Elai AI video generator",
+   "search": "HeyGen vs Elai comparison",
+   "why": "Captures buyers comparing HeyGen with Elai to decide which video generator fits their needs."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/alternatives/heygen-vs-hourone",
+   "title": "Best AI Video Generator Comparison: HeyGen vs Hour One | HeyGen",
+   "date": "2026-10-21T11:00:11+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "HeyGen vs Hour One AI video generator",
+   "search": "HeyGen vs Hour One comparison",
+   "why": "Captures buyers comparing HeyGen directly with a specific competitor to decide between them."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/apps/ai-image-generator",
+   "title": "AI Image Generator : Create Visuals for Any Video",
+   "date": "2026-10-21T11:00:11+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI image generator for video",
+   "search": "AI image generator for videos",
+   "why": "Showcases AI image tool with features and use cases to drive signup conversions."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/apps",
+   "title": "AI Video Apps & Tools for Creation, Editing, Enhancement | HeyGen",
+   "date": "2026-10-21T11:00:11+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI video generation and editing apps",
+   "search": "AI video generation tools apps",
+   "why": "Showcases full product suite to introduce creators to HeyGen's AI capabilities."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/model-context-protocol",
+   "title": "Contextual AI Integration | AI Video Solutions | HeyGen",
+   "date": "2026-10-21T11:00:11+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video generation integration platform",
+   "search": "AI video generator ChatGPT plugin integration",
+   "why": "Drives adoption of HeyGen's MCP server for seamless AI agent integration and video creation workflows."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/use-cases",
+   "title": "Unlock Creative Potential with AI Video Use Cases | HeyGen",
+   "date": "2026-10-20T17:38:20+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI video creation use cases",
+   "search": "how to use AI video generator",
+   "why": "Showcases diverse applications to educate prospects on platform capabilities and expand addressable market."
   },
   {
    "site": "Runway",
@@ -1601,20 +2761,6 @@
    "why": "Targets travel professionals ready to try HeyGen for client marketing workflows."
   },
   {
-   "site": "HeyGen",
-   "url": "https://www.heygen.com/ai-video-api",
-   "title": "HeyGen Video: AI Video Generation API for Developers",
-   "date": "2026-10-16T17:53:22+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-19T09:27:07+00:00",
-   "type": "landing",
-   "stage": "buying",
-   "topic": "AI video generation API for developers",
-   "search": "AI video API for developers text to video",
-   "why": "Showcases API capabilities with pricing and demos to convert developer buyers."
-  },
-  {
    "site": "Luma AI",
    "url": "https://lumalabs.ai/agents-guide",
    "title": "7 Key Criteria for Evaluating AI Creative Agents | Luma",
@@ -1812,20 +2958,6 @@
   },
   {
    "site": "HeyGen",
-   "url": "https://www.heygen.com/avatars/avatar-iv",
-   "title": "Create Talking Photo Avatars in 1280p+ HD Resolution | HeyGen",
-   "date": "2026-10-16T16:01:55+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-19T09:27:07+00:00",
-   "type": "landing",
-   "stage": "buying",
-   "topic": "AI avatar video generation",
-   "search": "create talking avatar from photo",
-   "why": "Showcases flagship product with free trial to convert interested users into creators."
-  },
-  {
-   "site": "HeyGen",
    "url": "https://www.heygen.com/avatars/avatar-v",
    "title": "Avatar V AI Digital Twin Avatar Generator | HeyGen",
    "date": "2026-10-16T16:01:55+00:00",
@@ -1896,20 +3028,6 @@
   },
   {
    "site": "HeyGen",
-   "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
-   "title": "Code2Video Benchmark: Evaluating AI Agents on Motion Design | HeyGen Research",
-   "date": "2026-10-16T16:01:55+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-19T09:27:07+00:00",
-   "type": "research",
-   "stage": "learning",
-   "topic": "Code-to-video AI benchmark leaderboard",
-   "search": "code-to-video AI benchmark evaluation motion design",
-   "why": "Establishes HeyGen as research authority in AI motion graphics generation."
-  },
-  {
-   "site": "HeyGen",
    "url": "https://www.heygen.com/about",
    "title": "About HeyGen | Create AI Videos with Your Personal Avatar",
    "date": "2026-10-16T16:01:52+00:00",
@@ -1921,20 +3039,6 @@
    "topic": "HeyGen mission, personal avatars, video creation",
    "search": "AI avatar video creation personal",
    "why": "Establishes thought leadership and company credibility with founders' vision and industry insights."
-  },
-  {
-   "site": "HeyGen",
-   "url": "https://www.heygen.com/agent",
-   "title": "AI Video Agent | Create and Automate Videos with AI | HeyGen",
-   "date": "2026-10-16T16:01:52+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-19T09:27:07+00:00",
-   "type": "landing",
-   "stage": "buying",
-   "topic": "AI video generation automation",
-   "search": "AI video generator agent",
-   "why": "Showcases AI Video Agent features to convert prospects into users."
   },
   {
    "site": "HeyGen",
@@ -1994,20 +3098,6 @@
   },
   {
    "site": "HeyGen",
-   "url": "https://www.heygen.com/trust-and-safety",
-   "title": "AI Ethics and Trust with Video Generation | HeyGen",
-   "date": "2026-10-16T16:01:52+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-19T09:27:07+00:00",
-   "type": "landing",
-   "stage": "learning",
-   "topic": "AI ethics and trust in video generation",
-   "search": "AI video generation security ethics compliance",
-   "why": "Builds credibility with security-conscious buyers researching responsible AI tools."
-  },
-  {
-   "site": "HeyGen",
    "url": "https://www.heygen.com/what-is-heygen",
    "title": "AI Video Creation Platform for Scalable, Personalized Content | HeyGen",
    "date": "2026-10-16T16:01:52+00:00",
@@ -2036,20 +3126,6 @@
   },
   {
    "site": "HeyGen",
-   "url": "https://www.heygen.com/translate",
-   "title": "AI Video Translator : Translate Videos into 175+ Languages",
-   "date": "2026-10-16T09:07:26+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-10-19T09:27:07+00:00",
-   "type": "landing",
-   "stage": "buying",
-   "topic": "AI video translation with lip sync",
-   "search": "translate videos into multiple languages",
-   "why": "Converts interested users into free trial sign-ups for video translation feature."
-  },
-  {
-   "site": "HeyGen",
    "url": "https://www.heygen.com/translate/french-to-vietnamese",
    "title": "French to Vietnamese Video Translation | AI Tool | HeyGen",
    "date": "2026-10-16T09:07:24+00:00",
@@ -2075,34 +3151,6 @@
    "topic": "AI video dubbing and localization",
    "search": "AI dubbing tool free video localization",
    "why": "Converts users by showcasing core dubbing feature with free trial and clear value props."
-  },
-  {
-   "site": "HeyGen",
-   "url": "https://www.heygen.com/research",
-   "title": "AI Research | HeyGen",
-   "date": "2026-10-14T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-10-14T00:00:00+00:00",
-   "first_seen": "2026-10-19T09:27:07+00:00",
-   "type": "research",
-   "stage": "learning",
-   "topic": "AI video generation research and engineering",
-   "search": "AI video generation research papers",
-   "why": "Establishes technical credibility and thought leadership in AI video generation field."
-  },
-  {
-   "site": "Pika",
-   "url": "https://pika.art/blog",
-   "title": "Blog — Pika",
-   "date": "2026-09-24T00:00:00+00:00",
-   "kind": "new",
-   "published": "2026-09-24T00:00:00+00:00",
-   "first_seen": "2026-10-19T09:27:07+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "Pika product releases and updates",
-   "search": "Pika video generation AI news releases",
-   "why": "Keeps existing users and API members informed of new features and product launches."
   },
   {
    "site": "Pika",
@@ -2137,7 +3185,7 @@
    "url": "https://pika.art/blog/welcome-to-the-new-pika",
    "title": "Welcome to the New Pika",
    "date": "2026-09-17T00:00:00+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "published": "2026-09-17T00:00:00+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
    "type": "news",
@@ -2151,7 +3199,7 @@
    "url": "https://runway.com/prompts/casting-to-campaign",
    "title": "Casting to campaign: 21 fashion prompts | Runway",
    "date": "2026-09-16T00:00:00+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "published": "2026-09-16T00:00:00+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
    "type": "howto",
@@ -2215,6 +3263,34 @@
    "topic": "Translate Portuguese videos to Spanish",
    "search": "translate Portuguese video to Spanish",
    "why": "Converts buyers ready to translate videos into customers with a direct call-to-action."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/translate/english-to-french",
+   "title": "Translate Video From English to French | AI Video Tool",
+   "date": "2026-07-08T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2026-07-08T00:00:00+00:00",
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video translation English to French",
+   "search": "translate video English to French AI",
+   "why": "Converts searchers looking for video translation solutions into free trial users."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/research/tavr",
+   "title": "TAVR: Talking Avatars from Video for Better Identity",
+   "date": "2026-03-03T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2026-03-03T00:00:00+00:00",
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "Talking avatars from video references",
+   "search": "talking avatar generation video reference",
+   "why": "Establishes HeyGen as AI research leader through peer-reviewed technical innovation."
   },
   {
    "site": "HeyGen",
@@ -2299,6 +3375,20 @@
    "topic": "German to Hindi video translation",
    "search": "translate German video to Hindi",
    "why": "Targets users looking to localize videos between specific language pairs."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/translate/english-to-hindi",
+   "title": "Translate Video From English to Hindi | Fast AI Tool",
+   "date": "2025-12-04T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2025-12-04T00:00:00+00:00",
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video translation English to Hindi",
+   "search": "translate video English to Hindi AI",
+   "why": "Converts high-intent searchers ready to translate videos into Hindi users with a free trial."
   },
   {
    "site": "HeyGen",
@@ -2651,6 +3741,48 @@
    "why": "Captures buyers seeking affordable video translation solutions with voice cloning."
   },
   {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/translate/english-to-danish",
+   "title": "Translate English Video to Danish | Fast AI Video Tool",
+   "date": "2025-12-02T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2025-12-02T00:00:00+00:00",
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Translate English video to Danish",
+   "search": "translate video English to Danish",
+   "why": "Captures buyers ready to translate videos into Danish with AI."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/translate/english-to-german",
+   "title": "Translate Video From English to German | Fast AI Tool",
+   "date": "2025-12-02T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2025-12-02T00:00:00+00:00",
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Video translation English to German",
+   "search": "translate video English to German AI",
+   "why": "Converts prospects ready to translate videos into customers with free trial and feature demo."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/translate/english-to-malay",
+   "title": "Translate Video From English to Malay | Fast AI Tool",
+   "date": "2025-12-02T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2025-12-02T00:00:00+00:00",
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Video translation English to Malay",
+   "search": "translate video English to Malay AI",
+   "why": "Converts interested buyers into users with free trial and direct upload functionality."
+  },
+  {
    "site": "Runway",
    "url": "https://runway.com/research/publications",
    "title": "Runway Research | Research Papers",
@@ -2773,6 +3905,54 @@
      "updated": 4,
      "removed": 0,
      "pages": 454
+    }
+   }
+  },
+  {
+   "week": "2026-W45",
+   "date": "2026-11-02T15:45:02+00:00",
+   "sites": {
+    "Runway": {
+     "new": 7,
+     "updated": 2,
+     "removed": 0,
+     "pages": 365
+    },
+    "Pika": {
+     "new": 3,
+     "updated": 2,
+     "removed": 0,
+     "pages": 34
+    },
+    "Luma AI": {
+     "new": 1,
+     "updated": 2,
+     "removed": 0,
+     "pages": 24
+    },
+    "Kling AI": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "OpenAI Sora": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Google Veo": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "HeyGen": {
+     "new": 12,
+     "updated": 8,
+     "removed": 1,
+     "pages": 465
     }
    }
   }
