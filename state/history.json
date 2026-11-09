@@ -143,6 +143,54 @@
      "pages": 465
     }
    }
+  },
+  {
+   "week": "2026-W46",
+   "date": "2026-11-09T16:11:40+00:00",
+   "sites": {
+    "Runway": {
+     "new": 3,
+     "updated": 22,
+     "removed": 2,
+     "pages": 366
+    },
+    "Pika": {
+     "new": 12,
+     "updated": 2,
+     "removed": 0,
+     "pages": 46
+    },
+    "Luma AI": {
+     "new": 1,
+     "updated": 3,
+     "removed": 0,
+     "pages": 25
+    },
+    "Kling AI": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "OpenAI Sora": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Google Veo": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "HeyGen": {
+     "new": 4,
+     "updated": 12,
+     "removed": 1,
+     "pages": 468
+    }
+   }
   }
  ]
 }

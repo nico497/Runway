@@ -3,7 +3,7 @@
   "title": "Bottom-of-funnel content tracker",
   "niche": "AI-powered video and image generation software (text-to-video, image-to-video, generative creative tools)",
   "you": "Runway",
-  "generated": "2026-11-02T15:49:36+00:00",
+  "generated": "2026-11-09T16:19:34+00:00",
   "state_updated": "2026-10-19T09:27:07+00:00",
   "repo": "nico497/Runway"
  },
@@ -40,8 +40,8 @@
  "sites": [
   {
    "name": "Runway",
-   "tracked": 365,
-   "considered": 365,
+   "tracked": 368,
+   "considered": 368,
    "own_pricing": "https://runway.com/pricing",
    "hubs": [
     "https://runway.com/news/customers"
@@ -49,15 +49,15 @@
   },
   {
    "name": "Pika",
-   "tracked": 34,
-   "considered": 34,
+   "tracked": 46,
+   "considered": 46,
    "own_pricing": "https://pika.art/pricing",
    "hubs": []
   },
   {
    "name": "Luma AI",
-   "tracked": 24,
-   "considered": 24,
+   "tracked": 25,
+   "considered": 25,
    "own_pricing": "https://lumalabs.ai/pricing",
    "hubs": [
     "https://lumalabs.ai/case-studies"
@@ -86,8 +86,8 @@
   },
   {
    "name": "HeyGen",
-   "tracked": 596,
-   "considered": 447,
+   "tracked": 600,
+   "considered": 451,
    "own_pricing": "https://www.heygen.com/pricing",
    "hubs": [
     "https://www.heygen.com/customer-stories",
@@ -977,6 +977,13 @@
    "site": "HeyGen",
    "url": "https://www.heygen.com/customer-stories/truly-finance",
    "path": "/customer-stories/truly-finance",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/university-of-colorado",
+   "path": "/customer-stories/university-of-colorado",
    "type": "case",
    "targets": []
   },
