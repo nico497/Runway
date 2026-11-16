@@ -6,7 +6,7 @@
     "Pika",
     "Luma AI",
     "Kling AI",
-    "OpenAI Sora",
+    "Seedance",
     "Google Veo",
     "HeyGen"
   ],
@@ -14,6 +14,7 @@
     "Pika": "pika\\.art|pika labs",
     "Luma AI": "luma ?labs|luma ?ai|dream machine",
     "Kling AI": "kling ?ai|klingai",
+    "Seedance": "seedance|dreamina",
     "OpenAI Sora": "\\bsora\\b",
     "Google Veo": "\\bveo\\b|veo ?2|veo ?3",
     "HeyGen": "heygen",

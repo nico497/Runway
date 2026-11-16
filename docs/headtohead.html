@@ -215,6 +215,24 @@ table.nums tr.you td.h { background: color-mix(in srgb, var(--rival) calc(var(--
 ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } ul.how li { margin: 6px 0; }
 @media (max-width: 720px) { .wrap { padding: 0 16px 64px; } .sec { margin-top: 64px; } .pr { grid-template-columns: 1fr; } .mx th.rl, .mx td.rl { min-width: 140px; } }
 
+.cp ul.pts { list-style: disc; padding-left: 20px; color: var(--ink-2); } .cp ul.pts li { padding: 4px 0; }
+.cp .ph { margin: 0 0 6px; color: var(--navy); font-weight: 700; }
+.cp .cn .ph + ul.pts { margin-bottom: 16px; }
+.cp .swcard { border-top: 4px solid var(--you); }
+.cp .swcard.w { border-top-color: var(--navy); }
+.swcard h3 { margin: 0 0 4px; color: var(--navy); font: 800 24px/1.2 var(--sans); font-stretch: 106%; }
+.swcard .swsub { margin: 0 0 8px; color: var(--ink-3); font-size: 14px; }
+.swrow { padding: 14px 0; border-top: 1px solid var(--line); }
+.swrow:first-of-type { border-top: 0; }
+.swrow p { margin: 0 0 9px; color: var(--ink); font-size: 15px; font-weight: 600; line-height: 1.35; }
+.swbar { display: flex; align-items: center; gap: 12px; }
+.swtrack { flex: 1; height: 8px; border-radius: 999px; background: var(--mark); overflow: hidden; }
+.swfill { display: block; height: 100%; border-radius: 999px; background: var(--you); }
+.swcard.w .swfill { background: var(--navy); }
+.swpct { min-width: 44px; text-align: right; color: var(--navy); font: 800 17px/1 var(--sans); font-variant-numeric: tabular-nums; }
+.swn { min-width: 92px; color: var(--ink-3); font-size: 13px; }
+.swempty { margin: 12px 0 0; padding: 16px; border-radius: 10px; background: var(--panel); color: var(--ink-2); font-size: 15px; }
+.swempty b { display: block; margin-bottom: 4px; color: var(--navy); }
 .mockbar { margin: -24px 0 36px; padding: 10px 14px; border-radius: 10px; background: #fff6e0; color: #6b4a00; font-size: 14px; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mockbar { background: #3a2f12; color: #f5d98a; } }
 .sb { width: 100%; border-collapse: collapse; font-size: 15px; font-variant-numeric: tabular-nums; }
@@ -269,7 +287,6 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
     <nav class="nav" aria-label="Tools"><svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="17" width="7" height="11" rx="2" fill="#3a547a"/><rect x="12.5" y="10" width="7" height="18" rx="2" fill="#3a547a"/><rect x="21" y="3" width="7" height="25" rx="2" fill="#0aa8bf"/></svg><a href="./">Competitor Radar</a><a href="funnel.html">Funnel Gap Radar</a><a href="headtohead.html" aria-current="page">Head-to-Head Radar</a></nav>
     <span class="stamp">ChatGPT + GPT-4o API (logged out) · Oct 2026</span>
   </header>
-  <p class="mockbar"><b>Real data, mixed source, and a knowledge gap worth reading first.</b> The "Forced pick" numbers are 60 live answers (6 rivals × 2 name orders × 5 runs each): Pika's 10 runs and 9 of Luma AI's 10 came from ChatGPT's web app; the rest (1 Luma AI run, all of Kling AI/Sora/Veo/HeyGen, and all 12 open-comparison runs) came from the OpenAI API directly after ChatGPT's anonymous-usage cap blocked further web runs mid-session. More importantly: for four of six rivals, the model didn't actually know what it was comparing — see "How this works" below before reading the scoreboard as a real competitive signal.</p>
 
   <section id="headline"></section>
 
@@ -289,7 +306,7 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
   <section class="sec">
     <div class="sechead"><div><h2 class="title">Did it even know the rival?</h2><p class="sub">Before trusting any "win" above, check whether the model could actually identify the product it was being asked to compare.</p></div></div>
     <div class="tablewrap"><table class="fc" id="fc"></table></div>
-    <p class="note">Only Luma AI and HeyGen were recognized accurately. Pika, Kling AI, Sora and Veo were misidentified or unrecognized — their forced-pick wins for Runway should be read as a knowledge gap, not a verdict.</p>
+    <p class="note">Only Luma AI and HeyGen were recognized accurately. Pika, Kling AI and Veo were misidentified or unrecognized — their forced-pick wins for Runway should be read as a knowledge gap, not a verdict.</p>
   </section>
 
   <section class="sec" id="find">
@@ -304,11 +321,14 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
   <section class="sec">
     <div class="sechead"><h2 class="title">How this works, and what it doesn't cover yet</h2></div>
     <ul class="how">
-      <li>Forced-pick question: "If you had to pick one for a filmmaker generating AI video, Runway or {rival}?" Asked in both name orders, 5 fresh runs each (60 answers total).</li>
-      <li>Open comparison question: "Runway vs. {rival}: which should I choose?" Asked once per order (12 answers) — this is where the reasoning notes above come from. It is <b>not</b> repeated, so a single odd answer could be noise.</li>
-      <li><b>Mixed source, disclosed:</b> Pika's 10 forced-pick runs and 9 of Luma AI's 10 came from ChatGPT's web app, logged out, no memory or personalization. Partway through, ChatGPT's anonymous-usage cap blocked the browser session entirely (confirmed with a control test on an unrelated message, and it persisted over 11+ hours). The remaining 1 Luma AI run, all of Kling AI/Sora/Veo/HeyGen (40 runs), and all 12 open-comparison runs came from the OpenAI API (gpt-4o) directly — same question text, but no browsing and a different underlying model than ChatGPT's web app serves.</li>
-      <li><b>The headline finding: this isn't really a 6-way competitive sweep.</b> The model only demonstrated real product knowledge for Luma AI and HeyGen — it described both accurately and specifically. For Pika, Kling AI, Sora and Google Veo, it either misidentified the product (Pika as a color-picker tool) or had no idea what it was (Kling AI, Sora, Veo all drew hedging, generic non-answers — one run on Veo stated outright "I'm not aware of a product named 'Google Veo'"). Runway's 10-of-10 sweep against those four rivals is a visibility gap in the model's training data, not a judged comparison.</li>
-      <li>All 6 rivals show the exact same 5–0/5–0 split by order, so there's no order effect to report here — unlike the Hostaway project, where two rivals fully flipped by which name came first.</li>
+      <li><b>Scope: AI video generation only.</b> Runway is more than a video generator. It also covers image and audio creation, a developer API, and world-model and robotics research. The rivals here are compared on video generation only, so the picture would look different in those other categories.</li>
+      <li><b>Strengths and weaknesses:</b> the percentages count how many of the 5 matchups show each point, read from the open answers (one per name order, not repeated). Treat them as a guide, not a trend.</li>
+      <li>Forced-pick question: "If you had to pick one for a filmmaker generating AI video, Runway or {rival}?" Asked in both name orders, 5 fresh runs each (50 answers total).</li>
+      <li><b>Rival list:</b> OpenAI Sora was removed in Nov 2026 because OpenAI has discontinued it. Seedance 2.0 (ByteDance) is being added to the dashboards but has no head-to-head runs yet, so it is not on this scoreboard.</li>
+      <li>Open comparison question: "Runway vs. {rival}: which should I choose?" Asked once per order (10 answers) — this is where the reasoning notes above come from. It is <b>not</b> repeated, so a single odd answer could be noise.</li>
+      <li><b>Mixed source, disclosed:</b> Pika's 10 forced-pick runs and 9 of Luma AI's 10 came from ChatGPT's web app, logged out, no memory or personalization. Partway through, ChatGPT's anonymous-usage cap blocked the browser session entirely (confirmed with a control test on an unrelated message, and it persisted over 11+ hours). The remaining 1 Luma AI run, all of Kling AI/Veo/HeyGen (30 runs), and all 10 open-comparison runs came from the OpenAI API (gpt-4o) directly — same question text, but no browsing and a different underlying model than ChatGPT's web app serves.</li>
+      <li><b>The headline finding: this isn't really a 5-way competitive sweep.</b> The model only demonstrated real product knowledge for Luma AI and HeyGen — it described both accurately and specifically. For Pika, Kling AI and Google Veo, it either misidentified the product (Pika as a color-picker tool) or had no idea what it was (Kling AI and Veo both drew hedging, generic non-answers — one run on Veo stated outright "I'm not aware of a product named 'Google Veo'"). Runway's 10-of-10 sweep against those three rivals is a visibility gap in the model's training data, not a judged comparison.</li>
+      <li>All 5 rivals show the exact same 5–0/5–0 split by order, so there's no order effect to report here — unlike the Hostaway project, where two rivals fully flipped by which name came first.</li>
       <li>Not yet covered: pricing, integrations, onboarding, setup and support as separate scored dimensions — the open-comparison answers made almost no specific, checkable claims (no citations at all from the API route), so there isn't a real "worth checking" fact sheet for this project the way there was for Hostaway. Also not covered: any run while logged in, or any engine besides ChatGPT/GPT-4o.</li>
     </ul>
   </section>
@@ -323,68 +343,57 @@ const YOU = "Runway";
 // anonymous-usage cap blocked further runs. Oct 2026.
 // you: Runway named first. them: rival named first. Each is {blvd, rival} out of 5 (kept as "blvd" internally).
 const H2H = {
-  Pika: {
-    you: { blvd: 5, rival: 0 }, them: { blvd: 5, rival: 0 },
-    knowledge: "confused",
-    openPoints: [
-      "The model did not reliably recognize Pika as an AI video tool at all. In the open comparison it described Pika as “productivity tools… e.g., color pickers, file explorers” and compared it to Runway on color-palette management, not video generation — a straightforward brand-identity miss, not a product comparison.",
-      "Runway, by contrast, was described accurately and specifically: AI-powered video editing, image synthesis, text-to-video, real-time collaboration.",
-      "The forced-pick sweep (10 of 10) reads as unfamiliarity bias, not a genuine comparative judgment — the model picked the tool it could describe over the one it couldn't identify.",
-    ],
-    openCites: "No citations in either run — this came from the model's own training knowledge, not a live web search, and that knowledge doesn't include Pika as an AI video brand.",
-  },
-  "Luma AI": {
-    you: { blvd: 5, rival: 0 }, them: { blvd: 5, rival: 0 },
-    knowledge: "accurate",
-    openPoints: [
-      "One of only two rivals the model genuinely understood. Luma AI was consistently and correctly described as a 3D-capture/reconstruction and AR specialist — “photorealistic 3D model creation from images and videos” — not a direct text/image-to-video competitor to Runway.",
-      "Runway was positioned as the broader, more accessible creative-AI suite: video editing, image generation, real-time effects, lower technical barrier to entry.",
-      "The 10-of-10 sweep here is a more meaningful signal than most of the other rivals: the model understands Luma AI is a different (3D/AR) use case, and still frames Runway as the better general-purpose pick for a filmmaker specifically.",
-    ],
-    openCites: "No citations — general-knowledge answer, but the product description itself checks out against Luma AI's actual positioning.",
-  },
-  "Kling AI": {
-    you: { blvd: 5, rival: 0 }, them: { blvd: 5, rival: 0 },
-    knowledge: "unknown",
-    openPoints: [
-      "The model had no real knowledge of Kling AI (Kuaishou's text-to-video model). Its open-comparison answer hedged entirely in generic terms — “could be AI-driven automation, data analysis, or a particular industry solution” — never once identifying it as a video generator.",
-      "Runway was again described accurately and specifically, which structurally favors it in a forced pick regardless of Kling's actual capabilities.",
-      "Treat this 10-of-10 the same way as Pika: it reflects a gap in what the model knows about a fast-moving Chinese AI video lab, not a real competitive verdict.",
-    ],
-    openCites: "No citations, and no accurate identification of what Kling AI even is.",
-  },
-  "OpenAI Sora": {
-    you: { blvd: 5, rival: 0 }, them: { blvd: 5, rival: 0 },
-    knowledge: "unknown",
-    openPoints: [
-      "Even though Sora is OpenAI's own product, the model repeatedly hedged on what it does — guessing at “language understanding,” “code writing,” or “autonomous decision-making” instead of identifying it as a text-to-video generator, and noted “less public information specifically about OpenAI's product Sora.”",
-      "That's a real finding in its own right: this model's training data doesn't reliably capture Sora as a video-generation product, despite both coming from OpenAI.",
-      "The 10-of-10 Runway sweep again reflects which product the model could actually describe, not a judged comparison of video quality or features.",
-    ],
-    openCites: "No citations, and Sora's actual function (video generation) was never correctly named.",
-  },
-  "Google Veo": {
-    you: { blvd: 5, rival: 0 }, them: { blvd: 5, rival: 0 },
-    knowledge: "unknown",
-    openPoints: [
-      "The clearest miss of the six: one run opened with “I'm not aware of a product named ‘Google Veo’” and speculated it might be “a misinterpretation of existing Google services” before hedging through a generic comparison framework.",
-      "Other runs guessed at generic Google-ecosystem strengths (Drive/Photos integration, infrastructure scale) without ever correctly describing Veo as a video-generation model.",
-      "This is the strongest version of the same pattern: a 10-of-10 sweep that says more about a gap in the model's knowledge of recent Google AI releases than about Runway's actual standing against Veo.",
-    ],
-    openCites: "No citations; one run states outright it doesn't recognize the product.",
-  },
-  HeyGen: {
-    you: { blvd: 5, rival: 0 }, them: { blvd: 5, rival: 0 },
-    knowledge: "accurate",
-    openPoints: [
-      "The other rival the model genuinely understood. HeyGen was consistently and correctly described as a text-to-video / AI-avatar platform built for fast, low-effort marketing and social content — a real, if partial, positioning miss in one run (it leaned toward “copy/content generation” rather than avatar video specifically), but recognizably HeyGen.",
-      "Runway was framed as the more powerful, more general creative suite with a steeper learning curve, against HeyGen's speed and simplicity for non-editors.",
-      "Like Luma AI, this 10-of-10 is a more genuine signal: the model knows what HeyGen does and still frames Runway as the pick for a filmmaker specifically — a narrower, more defensible claim than the other four matchups.",
-    ],
-    openCites: "No citations, but the product description is broadly accurate.",
-  },
+  Pika: { you: { blvd: 5, rival: 0 }, them: { blvd: 5, rival: 0 }, knowledge: "confused" },
+  "Luma AI": { you: { blvd: 5, rival: 0 }, them: { blvd: 5, rival: 0 }, knowledge: "accurate" },
+  "Kling AI": { you: { blvd: 5, rival: 0 }, them: { blvd: 5, rival: 0 }, knowledge: "unknown" },
+  "Google Veo": { you: { blvd: 5, rival: 0 }, them: { blvd: 5, rival: 0 }, knowledge: "unknown" },
+  HeyGen: { you: { blvd: 5, rival: 0 }, them: { blvd: 5, rival: 0 }, knowledge: "accurate" },
 };
 const RIV = Object.keys(H2H);
+
+// Plain-language read of each matchup's open-comparison answers (one run per name order).
+const SUM = {
+  Pika: {
+    why: ["Runway is picked 10 of 10 times, whichever name comes first.", "The model took Pika for a color-picker or productivity tool, not an AI video tool.", "It picked the product it could describe, so this is not a real comparison."],
+    rival: ["Not identified as an AI video tool", "Described as a color picker or data-processing software"],
+    you: ["Video editing, image creation and content generation", "Accessible to creatives without deep technical skills"],
+  },
+  "Luma AI": {
+    why: ["Runway is picked 10 of 10 times.", "The model knew Luma AI: a 3D capture and AR specialist, not a direct video rival.", "It still called Runway the better general pick for video work."],
+    rival: ["Photorealistic 3D models from photos and video", "Used in gaming, architecture and film", "Needs more technical skill"],
+    you: ["Broader creative suite: video editing, image tools, real-time effects", "Easier to use, with little or no coding"],
+  },
+  "Kling AI": {
+    why: ["Runway is picked 10 of 10 times.", "The model had no real knowledge of Kling AI and gave generic answers.", "It picked the product it could describe, so this is not a real comparison."],
+    rival: ["Not identified as a video generator", "Guessed to be a business or data-analysis tool"],
+    you: ["Video editing and media production", "Collaboration features for creative teams"],
+  },
+  "Google Veo": {
+    why: ["Runway is picked 10 of 10 times.", "One answer opened by saying the model isn't aware of a product named Google Veo.", "The pick reflects a knowledge gap, not a judged comparison."],
+    rival: ["Guessed: Google ecosystem integration", "Called \"newer in the space\" with an evolving feature set"],
+    you: ["Video editing, rotoscoping and AI creative tools", "User-friendly, with team collaboration", "Learning curve for advanced features"],
+  },
+  HeyGen: {
+    why: ["Runway is picked 10 of 10 times.", "The model knew HeyGen: fast text-to-video for marketing, simple for non-editors.", "It framed Runway as the pick for a filmmaker who wants more editing control."],
+    rival: ["Turns written material into video quickly", "Simple interface for non-editors", "Limited customization for heavy post-production"],
+    you: ["Sophisticated editing and effects: green screen, color grading", "Real-time collaboration", "Steeper learning curve"],
+  },
+};
+
+// Consistent strengths and weaknesses: how many of the 6 matchups show each point (read from the open answers).
+const SWTAB = "__sw";
+const SW = {
+  strengths: [
+    ["Video editing and effects tools (editing, rotoscoping, color grading, green screen)", ["Pika", "Luma AI", "Kling AI", "Google Veo", "HeyGen"]],
+    ["Accessible to creatives without technical or coding skills", ["Pika", "Luma AI", "Kling AI", "Google Veo"]],
+    ["Team collaboration features", ["Pika", "Kling AI", "Google Veo", "HeyGen"]],
+  ],
+  weaknesses: [
+    ["Described as an editing and ML toolkit, not as an AI video generator", ["Luma AI", "Kling AI", "Google Veo", "HeyGen"]],
+    ["The rival is credited with a narrower strength Runway isn't (3D and AR, fast text-to-video)", ["Luma AI", "HeyGen"]],
+    ["Steeper learning curve than the simpler rival", ["Google Veo", "HeyGen"]],
+  ],
+};
 
 // What's actually checkable here: not pricing claims (none were made with real citations),
 // but which rivals the model could and couldn't correctly identify.
@@ -392,7 +401,6 @@ const FACTS = [
   ["Pika", "Model misidentified it as a color-picker/productivity tool, not an AI video generator", "Confused"],
   ["Luma AI", "Correctly identified as a 3D-capture/reconstruction and AR specialist", "Accurate"],
   ["Kling AI", "Model had no knowledge of what the product does", "Unknown"],
-  ["OpenAI Sora", "Model repeatedly hedged, never correctly named it as a video generator — despite being OpenAI's own product", "Unknown"],
   ["Google Veo", "One run stated outright it wasn't aware the product exists", "Unknown"],
   ["HeyGen", "Correctly identified as a text-to-video / AI-avatar content platform", "Accurate"],
 ];
@@ -434,24 +442,38 @@ function renderBoard() {
   });
 }
 
-let CS = "Luma AI";
+let CS = SWTAB;
 function renderComp() {
-  $("#ctabs").innerHTML = `<span class="tabslabel">${YOU} vs.</span>` + RIV.map((r) => `<button type="button" data-r="${esc(r)}" aria-pressed="${r === CS}">${esc(r)}</button>`).join("");
+  $("#ctabs").innerHTML = `<button type="button" data-r="${SWTAB}" aria-pressed="${CS === SWTAB}">Strengths &amp; weaknesses</button><span class="tabslabel" aria-hidden="true">|</span><span class="tabslabel">${YOU} vs.</span>` + RIV.map((r) => `<button type="button" data-r="${esc(r)}" aria-pressed="${r === CS}">${esc(r)}</button>`).join("");
   $("#ctabs").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => { CS = b.dataset.r; renderComp(); }));
-  const m = H2H[CS], t = total(CS);
-  const vtxt = t.blvd > t.rival ? `${YOU} wins ${t.blvd} of 10 forced-pick runs vs. ${esc(CS)}.` : t.blvd < t.rival ? `${esc(CS)} wins ${t.rival} of 10 forced-pick runs.` : `Dead even across 10 runs.`;
+  if (CS === SWTAB) return renderSW();
+  const m = H2H[CS], t = total(CS), x = SUM[CS];
+  const vtxt = t.blvd > t.rival ? `${YOU} is picked in ${t.blvd} of 10 forced-pick runs.` : t.blvd < t.rival ? `The model picks ${esc(CS)} in ${t.rival} of 10 forced-pick runs.` : `Dead even across 10 runs.`;
   const kBadge = m.knowledge === "accurate" ? `<span class="chip" style="background:#e3f6ea;border-color:#bfe3cc;color:#14633a">Model knows this product</span>`
     : `<span class="chip" style="background:#fdecec;border-color:#f3c6c6;color:#9b1c1c">Model ${m.knowledge === "confused" ? "misidentified" : "didn't recognize"} this product</span>`;
+  const pts = (a) => `<ul class="pts">${a.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>`;
   $("#cpanel").innerHTML = `<div class="cp"><div>
       <p class="verdict">${vtxt}</p>
-      <div class="ord"><span>${YOU} named first: <b>${m.you.blvd} of 5</b> for ${YOU}</span><span>${esc(CS)} named first: <b>${m.them.blvd} of 5</b> for ${YOU}</span></div>
+      <div class="ord"><span>When ${YOU} is named first: ${YOU} picked <b>${m.you.blvd} of 5</b> times</span><span>When ${esc(CS)} is named first: ${YOU} picked <b>${m.them.blvd} of 5</b> times</span></div>
       <p style="margin:0 0 14px">${kBadge}</p>
-      <p class="dim" style="margin:0 0 6px;font-weight:700;color:var(--navy)">Open comparison (single run, not repeated)</p>
-      <ul class="how">${m.openPoints.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>
-    </div><div class="cn"><h3>What the open comparison cited</h3>
-      <p class="insight">${esc(m.openCites)}</p>
-      <p class="insight">This is from one run per order (2 total), not the 10 forced-pick runs above — treat it as a data point, not a trend.</p>
+      <p class="ph">Why the model picked this way</p>
+      ${pts(x.why)}
+    </div><div class="cn"><h3>What the model said about each side</h3>
+      <p class="ph">${esc(CS)}</p>${pts(x.rival)}
+      <p class="ph">${YOU}</p>${pts(x.you)}
     </div></div>`;
+}
+function renderSW() {
+  const row = ([t, rs]) => { const pc = Math.round((rs.length / RIV.length) * 100); return `<div class="swrow"><p>${esc(t)}</p><div class="swbar"><span class="swtrack"><span class="swfill" style="width:${pc}%"></span></span><span class="swpct">${pc}%</span><span class="swn">${rs.length} of ${RIV.length} matchups</span></div></div>`; };
+  const byCount = (a, b) => b[1].length - a[1].length;
+  $("#cpanel").innerHTML = `<div class="cp"><div class="swcard">
+      <h3>Consistent strengths</h3><p class="swsub">What the model keeps crediting ${YOU} for</p>
+      ${[...SW.strengths].sort(byCount).map(row).join("")}
+    </div><div class="swcard w">
+      <h3>Consistent weaknesses</h3><p class="swsub">Where the model says ${YOU} falls short</p>
+      ${[...SW.weaknesses].sort(byCount).map(row).join("")}
+    </div></div>
+    <p class="note">Percentage = how many of the ${RIV.length} matchups show the point. Based on one open answer per name order, so treat it as a guide, not verified fact.</p>`;
 }
 
 function renderFacts() {
@@ -467,8 +489,6 @@ const RAW = {
   "Luma AI|them": "Luma AI: AI-powered 3D tools, reconstructing 3D models from photos, photorealistic rendering for architecture, film production, gaming and advertising. Runway: creative AI toolset for artists/designers — video editing, image manipulation, synthetic media, real-time video effects, user-friendly and accessible without a deep technical background. Recommendation: Luma AI for 3D modeling and realistic digital representations; Runway for broader creative applications and ease of use.",
   "Kling AI|you": "Runway: AI tools for creative workflows — video editing, object detection, image analysis, style transfer; accessible interfaces and APIs for creatives, designers, filmmakers. Kling AI: no specific knowledge offered — described only in generic terms as “a class of AI platforms aimed at solving business or technical problems,” possibly data analysis, ML deployment or NLP, “without specific information.” The model explicitly could not characterize what Kling AI (the real Kuaishou text-to-video model) does.",
   "Kling AI|them": "Kling AI: generic checklist of things to “understand” (focus, customization, integration, usability, support) with no actual product description offered. Runway: described accurately as AI tools for creative workflows, video editing and media production, with collaboration features for creative teams. The comparison is effectively one-sided because the model has no real information about Kling AI.",
-  "OpenAI Sora|you": "Runway: AI-powered tools for video editing, image synthesis, real-time video editing, object detection, text-to-image generation — best for creative/graphics/video-editing projects. OpenAI Sora: described only speculatively, noting “less public information specifically about OpenAI's product 'Sora'” and guessing it might relate to language processing, code writing or automation rather than video generation — a clear miss on Sora's actual function.",
-  "OpenAI Sora|them": "OpenAI's Sora: assumed to incorporate “advanced AI models similar to what OpenAI has developed in the past,” framed around NLP and “research leadership” rather than video generation specifically. Runway: accurately described for creative tools, multimedia projects, video editing/image generation, user-friendly interface, real-time collaboration. Recommendation hinges on a mischaracterization of what Sora does.",
   "Google Veo|you": "Runway: AI-powered creative tools (image/video editing, inpainting, text-to-image), user-friendly, supports team collaboration — pros include specialized real-time AI video features; cons include a learning curve for advanced features. Google Veo: guessed to offer “integration with the Google ecosystem” and “advanced AI and machine learning,” but flagged as “newer in the space” with an “evolving” feature set — no concrete description of what Veo actually generates.",
   "Google Veo|them": "Opens by stating outright: “I'm not aware of a product named 'Google Veo.' It's possible that it is a new offering… I recommend checking Google's official product page.” Runway is then described accurately (video editing, rotoscoping, AI-driven creative tools). The clearest case in this project of the model admitting it doesn't know the rival before still landing on a recommendation.",
   "HeyGen|you": "Runway: video editing and ML tools for creative projects — AI-powered editing, color correction, background removal, collaborative features, integrates with other creative software; best for creative professionals and teams. HeyGen: described as AI-powered content creation “often with a focus on generating copy or multimedia content,” text-to-speech capabilities, targeting marketers who need to produce content quickly — a reasonable but imprecise characterization (HeyGen's core product is AI-avatar video, not primarily copywriting).",
