@@ -7547,7 +7547,8 @@
    "bulk_pub": false,
    "bulk_mod": false,
    "fp_verified": true,
-   "missing_since": "2026-11-16T04:30:21+00:00"
+   "missing_since": "2026-11-16T04:30:21+00:00",
+   "removed": "2026-11-16T15:40:02+00:00"
   },
   "heygen.com/agencies": {
    "site": "HeyGen",
@@ -11094,7 +11095,8 @@
    "dates_checked": "2026-11-02T15:45:02+00:00",
    "kind": "unknown",
    "event": "2026-10-22T19:13:31+00:00",
-   "missing_since": "2026-11-16T04:30:21+00:00"
+   "missing_since": "2026-11-16T04:30:21+00:00",
+   "removed": "2026-11-16T15:40:02+00:00"
   },
   "heygen.com/heygen-voice": {
    "site": "HeyGen",
@@ -11121,7 +11123,8 @@
    "dates_checked": "2026-11-09T16:11:40+00:00",
    "kind": "unknown",
    "event": "2026-10-19T23:02:04+00:00",
-   "missing_since": "2026-11-16T04:30:21+00:00"
+   "missing_since": "2026-11-16T04:30:21+00:00",
+   "removed": "2026-11-16T15:40:02+00:00"
   },
   "heygen.com/avatars/ai-photo-avatar": {
    "site": "HeyGen",
@@ -12868,11 +12871,18 @@
   "heygen.com/business/learning-development/product-training-videos": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/learning-development/product-training-videos",
-   "title": "Product training videos",
+   "title": "Product Training Videos | Software Training Videos | HeyGen",
    "date": "2026-11-09T16:06:14+00:00",
    "lastmod": "2026-11-09T16:06:14+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI product training videos at scale",
+    "search": "create product training videos software",
+    "why": "Targets L&D and sales teams ready to solve training inefficiencies with AI avatars."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -12880,7 +12890,7 @@
    "pub": null,
    "mod": null,
    "fp": "8d05ac78843d559a",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:06:14+00:00"
   },
@@ -13001,11 +13011,18 @@
   "heygen.com/geniverse": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/geniverse",
-   "title": "Geniverse",
+   "title": "Explore the Geniverse. Learning, Events, Community for AI Video Creators | HeyGen",
    "date": "2026-11-09T16:15:06+00:00",
    "lastmod": "2026-11-09T16:15:06+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "customers",
+    "topic": "AI video creator community platform",
+    "search": "AI video creation learning community",
+    "why": "Builds engagement and loyalty by offering education, events, and community for existing users."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -13013,7 +13030,7 @@
    "pub": null,
    "mod": null,
    "fp": "fa9c27bf8344fd10",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:15:06+00:00"
   },
@@ -13150,11 +13167,18 @@
   "heygen.com/alternatives/heygen-vs-synthesia": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/alternatives/heygen-vs-synthesia",
-   "title": "Heygen vs synthesia",
+   "title": "HeyGen vs Synthesia : Which AI Video Generator is Best?",
    "date": "2026-11-11T11:57:50+00:00",
    "lastmod": "2026-11-11T11:57:50+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "compare",
+    "stage": "buying",
+    "topic": "HeyGen vs Synthesia video generators",
+    "search": "HeyGen vs Synthesia which is better",
+    "why": "Captures buyers actively evaluating HeyGen against Synthesia before purchasing."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -13162,7 +13186,7 @@
    "pub": null,
    "mod": null,
    "fp": "4bf022f80c4735e8",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-11T11:57:50+00:00"
   },
@@ -13195,11 +13219,18 @@
   "heygen.com/integrations/adobe-express": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/integrations/adobe-express",
-   "title": "Adobe express",
+   "title": "HeyGen + Adobe Express | Create Stunning AI-Powered Videos",
    "date": "2026-11-12T20:03:07+00:00",
    "lastmod": "2026-11-12T20:03:07+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "HeyGen Adobe Express integration",
+    "search": "HeyGen Adobe Express plugin integration",
+    "why": "Shows how to use HeyGen within Adobe Express to convert ready buyers into integrated users."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -13207,7 +13238,7 @@
    "pub": null,
    "mod": null,
    "fp": "8efa0c58117d5b43",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-12T20:03:07+00:00"
   },
@@ -13344,11 +13375,18 @@
   "heygen.com/ebook": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/ebook",
-   "title": "Ebook",
+   "title": "AI Video eBooks | HeyGen Resources Hub",
    "date": "2026-11-09T16:15:09+00:00",
    "lastmod": "2026-11-09T16:15:09+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "list",
+    "stage": "learning",
+    "topic": "AI video guides and research reports",
+    "search": "AI video marketing guides eBooks",
+    "why": "Builds authority and captures early-stage researchers exploring AI video solutions."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -13356,7 +13394,7 @@
    "pub": null,
    "mod": null,
    "fp": "cd0e71c125bb2d7c",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:15:09+00:00"
   },
@@ -14135,11 +14173,18 @@
   "heygen.com/business/agencies": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/agencies",
-   "title": "Agencies",
+   "title": "Video Production for Agencies | Scale Client Content | HeyGen",
    "date": "2026-11-09T16:15:59+00:00",
    "lastmod": "2026-11-09T16:15:59+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI video generation for agencies",
+    "search": "scale video production for agencies",
+    "why": "Shows how agencies can solve production bottlenecks and profit from their service offering."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14147,18 +14192,25 @@
    "pub": null,
    "mod": null,
    "fp": "94e7ce9845d15def",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:15:59+00:00"
   },
   "heygen.com/business/compliance-training": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/compliance-training",
-   "title": "Compliance training",
+   "title": "Compliance Training Videos | AI-Powered Training Software | HeyGen",
    "date": "2026-11-09T16:16:02+00:00",
    "lastmod": "2026-11-09T16:16:02+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Compliance training videos AI",
+    "search": "compliance training video software",
+    "why": "Targets buyers ready to solve compliance training with AI video generation and multilingual deployment."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14166,18 +14218,25 @@
    "pub": null,
    "mod": null,
    "fp": "3321419a34dbb666",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:16:02+00:00"
   },
   "heygen.com/business/learning-development/employee-onboarding-videos": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/learning-development/employee-onboarding-videos",
-   "title": "Employee onboarding videos",
+   "title": "Employee Onboarding Videos | New Hire Training Videos | HeyGen",
    "date": "2026-11-09T16:15:35+00:00",
    "lastmod": "2026-11-09T16:15:35+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Employee onboarding video creation",
+    "search": "employee onboarding videos AI",
+    "why": "Targets HR buyers ready to solve onboarding scaling challenges with software."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14185,7 +14244,7 @@
    "pub": null,
    "mod": null,
    "fp": "5e46f28d9a5b64ad",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:15:35+00:00"
   },
@@ -14203,11 +14262,18 @@
   "heygen.com/business/learning-development/internal-training-videos": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/learning-development/internal-training-videos",
-   "title": "Internal training videos",
+   "title": "Internal Training Videos | Corporate Training Videos | HeyGen",
    "date": "2026-11-09T16:15:21+00:00",
    "lastmod": "2026-11-09T16:15:21+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Internal training videos at scale",
+    "search": "create internal training videos corporate",
+    "why": "Targets L&D teams ready to solve training bottleneck with AI video solution."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14215,7 +14281,7 @@
    "pub": null,
    "mod": null,
    "fp": "94adb4360b81c6d2",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:15:21+00:00"
   },
@@ -14233,11 +14299,18 @@
   "heygen.com/business/marketing/localized-video-campaigns": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/marketing/localized-video-campaigns",
-   "title": "Localized video campaigns",
+   "title": "Localized Video Marketing | Multilingual Campaigns | HeyGen",
    "date": "2026-11-11T13:19:31+00:00",
    "lastmod": "2026-11-11T13:19:31+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Localized video marketing campaigns",
+    "search": "create multilingual video campaigns",
+    "why": "Targets marketing teams ready to solve global campaign production at scale."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14245,18 +14318,25 @@
    "pub": null,
    "mod": null,
    "fp": "a410b595a35a64fb",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-11T13:19:31+00:00"
   },
   "heygen.com/business/marketing": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/marketing",
-   "title": "Marketing",
+   "title": "Marketing Video Production | AI Video Creator for Teams | HeyGen",
    "date": "2026-11-09T16:14:29+00:00",
    "lastmod": "2026-11-09T16:14:29+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI video creation for marketing teams",
+    "search": "create marketing videos fast AI",
+    "why": "Targets marketing teams looking to produce videos faster and cheaper than traditional methods."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14264,7 +14344,7 @@
    "pub": null,
    "mod": null,
    "fp": "2beb207dfdf934d4",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:14:29+00:00"
   },
@@ -14293,11 +14373,18 @@
   "heygen.com/business/sales": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/sales",
-   "title": "Sales",
+   "title": "Sales Video Platform | Personalized Outreach & Enablement | HeyGen",
    "date": "2026-11-09T16:13:34+00:00",
    "lastmod": "2026-11-09T16:13:34+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Personalized sales video generation platform",
+    "search": "personalized sales video outreach software",
+    "why": "Sells sales teams on personalized video for higher engagement and deal closure."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14305,7 +14392,7 @@
    "pub": null,
    "mod": null,
    "fp": "e2ed70088f49c2c0",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:13:34+00:00"
   },
@@ -14361,11 +14448,18 @@
   "heygen.com/business/internal-communications": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/internal-communications",
-   "title": "Internal communications",
+   "title": "Internal Communications Videos | Employee Video Platform | HeyGen",
    "date": "2026-11-11T12:56:53+00:00",
    "lastmod": "2026-11-11T12:56:53+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Internal communications video platform",
+    "search": "create internal communications videos employees",
+    "why": "Targets HR and comms teams ready to solve workplace video at scale."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14373,18 +14467,25 @@
    "pub": null,
    "mod": null,
    "fp": "6eeca8b45e64513c",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-11T12:56:53+00:00"
   },
   "heygen.com/apps/ai-video-highlights": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/apps/ai-video-highlights",
-   "title": "Ai video highlights",
+   "title": "AI Highlight Video Maker App for Instant Reels | HeyGen",
    "date": "2026-11-12T20:02:51+00:00",
    "lastmod": "2026-11-12T20:02:51+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI highlight video maker app",
+    "search": "ai highlight video maker app",
+    "why": "Shows product capabilities to convert long videos into platform-ready highlight reels instantly."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14392,7 +14493,7 @@
    "pub": null,
    "mod": null,
    "fp": "e20ff574f7839a10",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-12T20:02:51+00:00"
   },
@@ -14421,11 +14522,18 @@
   "heygen.com/business/customer-success": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/customer-success",
-   "title": "Customer success",
+   "title": "Customer Onboarding Videos | AI Video for Customer Success | HeyGen",
    "date": "2026-11-09T16:10:35+00:00",
    "lastmod": "2026-11-09T16:10:35+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI video for customer education",
+    "search": "customer onboarding video software",
+    "why": "Shows how HeyGen solves customer success teams' education and support scaling challenges."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14433,18 +14541,25 @@
    "pub": null,
    "mod": null,
    "fp": "650843c569e9c4e7",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:10:35+00:00"
   },
   "heygen.com/apps/ai-video-podcast": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/apps/ai-video-podcast",
-   "title": "Ai video podcast",
+   "title": "AI Video Podcast : Turn Audio Into Polished Video",
    "date": "2026-11-12T20:02:48+00:00",
    "lastmod": "2026-11-12T20:02:48+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI video podcast generation tool",
+    "search": "turn podcast audio into video",
+    "why": "Showcases product features to convert free users into paying customers."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14452,18 +14567,25 @@
    "pub": null,
    "mod": null,
    "fp": "9b5b9ed73a276f03",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-12T20:02:48+00:00"
   },
   "heygen.com/business/learning-development/multilingual-training-videos": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/learning-development/multilingual-training-videos",
-   "title": "Multilingual training videos",
+   "title": "Multilingual Training Videos | Translated Training Content | HeyGen",
    "date": "2026-11-09T16:10:11+00:00",
    "lastmod": "2026-11-09T16:10:11+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Multilingual training videos at scale",
+    "search": "multilingual training videos voice cloning",
+    "why": "Targets L&D buyers facing OSHA compliance and translation cost pressures."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14471,18 +14593,25 @@
    "pub": null,
    "mod": null,
    "fp": "4d267bac72b3e30d",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:10:11+00:00"
   },
   "heygen.com/business/marketing/ugc-video-ads": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/marketing/ugc-video-ads",
-   "title": "Ugc video ads",
+   "title": "UGC Video Ads | AI Ad Creator for TikTok & Instagram | HeyGen",
    "date": "2026-11-11T13:19:22+00:00",
    "lastmod": "2026-11-11T13:19:22+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "UGC video ads AI creator",
+    "search": "create UGC video ads TikTok Instagram",
+    "why": "Targets marketing teams ready to generate ad creative, showcasing cost and speed advantages."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14490,7 +14619,7 @@
    "pub": null,
    "mod": null,
    "fp": "478d65c53b2ea225",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-11T13:19:22+00:00"
   },
@@ -14637,11 +14766,18 @@
   "heygen.com/business/marketing/product-launch-videos": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/marketing/product-launch-videos",
-   "title": "Product launch videos",
+   "title": "Microlearning Videos | Short Training Videos | HeyGen",
    "date": "2026-11-09T16:08:21+00:00",
    "lastmod": "2026-11-09T16:08:21+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Product launch videos creation",
+    "search": "create product launch videos fast",
+    "why": "Showcases solution for marketing teams launching products at scale to drive conversions."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14649,18 +14785,25 @@
    "pub": null,
    "mod": null,
    "fp": "cbbcd961d5da41b8",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:08:21+00:00"
   },
   "heygen.com/business/marketing/social-media-videos": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/marketing/social-media-videos",
-   "title": "Social media videos",
+   "title": "AI Social Media Videos | Social Video Maker | HeyGen",
    "date": "2026-11-09T16:08:15+00:00",
    "lastmod": "2026-11-09T16:08:15+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI social media video creation",
+    "search": "create AI social media videos fast",
+    "why": "Shows marketing teams how HeyGen solves content scaling without hiring agencies."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14668,7 +14811,7 @@
    "pub": null,
    "mod": null,
    "fp": "f3a93ad10fd54ee4",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:08:15+00:00"
   },
@@ -14686,11 +14829,18 @@
   "heygen.com/apps/ugc-video-generator": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/apps/ugc-video-generator",
-   "title": "Ugc video generator",
+   "title": "UGC Video Generator App for Ads at Scale | HeyGen",
    "date": "2026-11-12T20:02:44+00:00",
    "lastmod": "2026-11-12T20:02:44+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "UGC video generator for ads",
+    "search": "UGC video generator for ads",
+    "why": "Demonstrates core product capability to convert high-intent buyers into free trial users."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14698,7 +14848,7 @@
    "pub": null,
    "mod": null,
    "fp": "ab6ab646fac7a339",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-12T20:02:44+00:00"
   },
@@ -14742,11 +14892,18 @@
   "heygen.com/business/learning-development": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/learning-development",
-   "title": "Learning development",
+   "title": "Corporate Training Videos | AI Training Video Software | HeyGen",
    "date": "2026-11-09T16:06:57+00:00",
    "lastmod": "2026-11-09T16:06:57+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI corporate training video creation",
+    "search": "create corporate training videos AI",
+    "why": "Targets L&D teams ready to solve training video bottleneck with AI automation."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14754,7 +14911,7 @@
    "pub": null,
    "mod": null,
    "fp": "1cd99dd21e3b1b98",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:06:57+00:00"
   },
@@ -14783,11 +14940,18 @@
   "heygen.com/apps/batch-video-creator": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/apps/batch-video-creator",
-   "title": "Batch video creator",
+   "title": "Batch Video Creator : Personalize Video at Scale",
    "date": "2026-11-12T20:02:41+00:00",
    "lastmod": "2026-11-12T20:02:41+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Batch video creator for personalized videos",
+    "search": "batch video creator personalized videos at scale",
+    "why": "Showcases product capability to convert feature browsers into paying users."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14795,18 +14959,25 @@
    "pub": null,
    "mod": null,
    "fp": "ba1a6c8afd5b0b18",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-12T20:02:41+00:00"
   },
   "heygen.com/apps/ai-upscaler": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/apps/ai-upscaler",
-   "title": "Ai upscaler",
+   "title": "AI Video Upscaler App to Convert Videos to 4K Online | HeyGen",
    "date": "2026-11-12T20:02:41+00:00",
    "lastmod": "2026-11-12T20:02:41+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI video upscaling to 4K",
+    "search": "upscale video to 4K online",
+    "why": "Showcases product features to convert users to paid customers."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14814,7 +14985,7 @@
    "pub": null,
    "mod": null,
    "fp": "1d9bef808e39ca60",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-12T20:02:41+00:00"
   },
@@ -14832,11 +15003,18 @@
   "heygen.com/apps/ai-product-placement-video": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/apps/ai-product-placement-video",
-   "title": "Ai product placement video",
+   "title": "AI Product Placement Video : Ship Branded Cuts Fast",
    "date": "2026-11-12T19:35:39+00:00",
    "lastmod": "2026-11-12T19:35:39+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI product placement video generation",
+    "search": "AI product placement video creator",
+    "why": "Showcases a specific HeyGen feature to convert product marketing teams ready to solve placement videos."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14844,7 +15022,7 @@
    "pub": null,
    "mod": null,
    "fp": "8d2a2849970b7afc",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-12T19:35:39+00:00"
   },
@@ -14884,11 +15062,18 @@
   "heygen.com/business/learning-development/compliance-training-videos": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/learning-development/compliance-training-videos",
-   "title": "Compliance training videos",
+   "title": "Compliance Training Videos | Regulatory Training Software | HeyGen",
    "date": "2026-11-09T16:03:40+00:00",
    "lastmod": "2026-11-09T16:03:40+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Compliance training video generation",
+    "search": "compliance training videos SCORM LMS",
+    "why": "Targets L&D teams needing audit-ready compliance training solutions with SCORM integration."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14896,7 +15081,7 @@
    "pub": null,
    "mod": null,
    "fp": "b1b516e834f991c6",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:03:40+00:00"
   },
@@ -14979,11 +15164,18 @@
   "heygen.com/the-magic-of-heygen": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/the-magic-of-heygen",
-   "title": "The magic of heygen",
+   "title": "The Magic of HeyGen | Real Creators, Real Results",
    "date": "2026-11-09T16:16:17+00:00",
    "lastmod": "2026-11-09T16:16:17+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "case",
+    "stage": "comparing",
+    "topic": "AI video generation success stories",
+    "search": "how to create videos with AI",
+    "why": "Showcases customer wins to build trust with prospects evaluating video creation tools."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -14991,7 +15183,7 @@
    "pub": null,
    "mod": null,
    "fp": "05b8d01e5043b93d",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:16:17+00:00"
   },
@@ -15033,11 +15225,18 @@
   "heygen.com/brand-kit": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/brand-kit",
-   "title": "Brand kit",
+   "title": "HeyGen Brand Kit Guidelines & Media Assets Download | HeyGen",
    "date": "2026-11-09T16:15:13+00:00",
    "lastmod": "2026-11-09T16:15:13+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "customers",
+    "topic": "Brand kit guidelines media assets",
+    "search": "",
+    "why": "Provides official brand resources for partners and media to use HeyGen brand correctly."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -15045,7 +15244,7 @@
    "pub": null,
    "mod": null,
    "fp": "531a2b551adc883b",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:15:13+00:00"
   },
@@ -15500,11 +15699,18 @@
   "heygen.com/business/product-marketing": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/business/product-marketing",
-   "title": "Product marketing",
+   "title": "Product Marketing Videos | Launch Content & Enablement | HeyGen",
    "date": "2026-11-09T16:10:31+00:00",
    "lastmod": "2026-11-09T16:10:31+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Product marketing video creation",
+    "search": "product launch video creation software",
+    "why": "Showcases HeyGen's solution for product marketers needing fast, scalable launch video creation."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -15512,7 +15718,7 @@
    "pub": null,
    "mod": null,
    "fp": "3c9bfebd6436c341",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:10:31+00:00"
   },
@@ -15902,11 +16108,18 @@
   "heygen.com/geniverse/meetups": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/geniverse/meetups",
-   "title": "Meetups",
+   "title": "HeyGen Meetups. Local AI Video Events and Creator Community | HeyGen",
    "date": "2026-11-09T16:07:10+00:00",
    "lastmod": "2026-11-09T16:07:10+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "customers",
+    "topic": "HeyGen community meetups and events",
+    "search": "AI video creator meetups local events",
+    "why": "Builds community, enables peer learning, and deepens user engagement and retention."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -15914,7 +16127,7 @@
    "pub": null,
    "mod": null,
    "fp": "5b7fcb63e8a7f214",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:07:10+00:00"
   },
@@ -16070,11 +16283,18 @@
   "heygen.com/geniverse/ambassador-program": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/geniverse/ambassador-program",
-   "title": "Ambassador program",
+   "title": "HeyGen Ambassador Program. Apply to Lead AI Video Creators | HeyGen",
    "date": "2026-11-09T16:04:24+00:00",
    "lastmod": "2026-11-09T16:04:24+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "customers",
+    "topic": "HeyGen Ambassador Program community",
+    "search": "AI video ambassador program",
+    "why": "Builds community advocates and deepens engagement with existing creators."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -16082,7 +16302,7 @@
    "pub": null,
    "mod": null,
    "fp": "8448e70a290422a1",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:04:24+00:00"
   },
@@ -16111,11 +16331,18 @@
   "heygen.com/faq": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/faq",
-   "title": "Faq",
+   "title": "HeyGen FAQs - AI Video, Avatars, Pricing & API | HeyGen",
    "date": "2026-11-09T16:04:14+00:00",
    "lastmod": "2026-11-09T16:04:14+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "customers",
+    "topic": "HeyGen FAQs pricing features API",
+    "search": "HeyGen pricing plans features API",
+    "why": "Provides self-service answers to reduce support burden and unblock customers."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -16123,7 +16350,7 @@
    "pub": null,
    "mod": null,
    "fp": "b2d8a3263d192f32",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:04:14+00:00"
   },
@@ -16965,11 +17192,18 @@
   "heygen.com/academy/invite-members-to-your-workspace": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/academy/invite-members-to-your-workspace",
-   "title": "Invite members to your workspace",
+   "title": "Invite Members to Your Workspace | HeyGen Academy",
    "date": "2026-11-09T16:10:14+00:00",
    "lastmod": "2026-11-09T16:10:14+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "customers",
+    "topic": "Inviting team members workspace",
+    "search": "how to invite members workspace",
+    "why": "Helps existing users set up team collaboration and manage workspace access."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -16977,7 +17211,7 @@
    "pub": null,
    "mod": null,
    "fp": "7378896452c99946",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:10:14+00:00"
   },
@@ -17010,11 +17244,18 @@
   "heygen.com/academy/proofread": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/academy/proofread",
-   "title": "Proofread",
+   "title": "Proofread translated videos in HeyGen | HeyGen",
    "date": "2026-11-09T16:02:42+00:00",
    "lastmod": "2026-11-09T16:02:42+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "customers",
+    "topic": "Proofread translated videos",
+    "search": "how to proofread translated videos",
+    "why": "Guides existing users through proofreading workflow in translation feature."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -17022,7 +17263,7 @@
    "pub": null,
    "mod": null,
    "fp": "d7bce7037fd24857",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:02:42+00:00"
   },
@@ -17189,11 +17430,18 @@
   "heygen.com/academy/share-page/ai-editing-studio": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/academy/share-page/ai-editing-studio",
-   "title": "Ai editing studio",
+   "title": "AI Editing Studio | HeyGen Academy",
    "date": "2026-11-09T16:14:19+00:00",
    "lastmod": "2026-11-09T16:14:19+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "customers",
+    "topic": "AI editing studio workspace setup",
+    "search": "how to set up HeyGen workspace",
+    "why": "Guides existing users through workspace configuration and team collaboration features."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -17201,7 +17449,7 @@
    "pub": null,
    "mod": null,
    "fp": "4c991202bdd71448",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:14:19+00:00"
   },
@@ -17747,11 +17995,18 @@
   "heygen.com/academy/setup-checklist/invite-members-to-your-workspace": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/academy/setup-checklist/invite-members-to-your-workspace",
-   "title": "Invite members to your workspace",
+   "title": "Invite Members to Your Workspace | HeyGen Academy",
    "date": "2026-11-09T16:04:56+00:00",
    "lastmod": "2026-11-09T16:04:56+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "customers",
+    "topic": "Invite members to workspace",
+    "search": "how to invite team members HeyGen",
+    "why": "Helps existing users set up team collaboration and workspace management."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -17759,7 +18014,7 @@
    "pub": null,
    "mod": null,
    "fp": "578fc19f87520449",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:04:56+00:00"
   },
@@ -17779,11 +18034,18 @@
   "heygen.com/academy/welcome-to-academy/managing-sub-workspaces": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/academy/welcome-to-academy/managing-sub-workspaces",
-   "title": "Managing sub workspaces",
+   "title": "Managing Sub-Workspaces | HeyGen Academy",
    "date": "2026-11-09T16:03:55+00:00",
    "lastmod": "2026-11-09T16:03:55+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "customers",
+    "topic": "managing sub-workspaces permissions roles",
+    "search": "how to manage sub-workspaces HeyGen",
+    "why": "Helps existing enterprise and agency users organize teams and control resource allocation."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -17791,18 +18053,25 @@
    "pub": null,
    "mod": null,
    "fp": "a4f3cc117e9cfc86",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:03:55+00:00"
   },
   "heygen.com/academy/setup-checklist/managing-sub-workspaces": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/academy/setup-checklist/managing-sub-workspaces",
-   "title": "Managing sub workspaces",
+   "title": "Managing Sub-Workspaces | HeyGen Academy",
    "date": "2026-11-09T16:03:55+00:00",
    "lastmod": "2026-11-09T16:03:55+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "customers",
+    "topic": "Managing sub-workspaces in HeyGen",
+    "search": "how to manage sub-workspaces HeyGen",
+    "why": "Helps existing customers organize teams and manage workspace permissions efficiently."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -17810,7 +18079,7 @@
    "pub": null,
    "mod": null,
    "fp": "d6249d3660f1c226",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:03:55+00:00"
   },
@@ -18194,11 +18463,18 @@
   "heygen.com/chatgpt-app": {
    "site": "HeyGen",
    "url": "https://www.heygen.com/chatgpt-app",
-   "title": "Chatgpt app",
+   "title": "HeyGen ChatGPT App — AI Video from Any Prompt",
    "date": "2026-11-09T16:12:46+00:00",
    "lastmod": "2026-11-09T16:12:46+00:00",
    "first_seen": "2026-10-19T09:27:07+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI video generation from ChatGPT prompts",
+    "search": "create AI videos from ChatGPT prompts",
+    "why": "Showcases ChatGPT integration to convert users ready to generate videos with minimal effort."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
@@ -18206,7 +18482,7 @@
    "pub": null,
    "mod": null,
    "fp": "6a5458aa829b3841",
-   "dates_checked": "2026-11-16T04:30:21+00:00",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
    "kind": "unknown",
    "event": "2026-11-09T16:12:46+00:00"
   },
@@ -121208,6 +121484,32 @@
    "cls": null,
    "baseline": true,
    "prog": "tools"
+  },
+  "heygen.com/models/heygen-avatar-6": {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/models/heygen-avatar-6",
+   "title": "HeyGen Avatar 6: AI Avatar Model That Looks Like You",
+   "date": "2026-11-16T09:22:26+00:00",
+   "lastmod": "2026-11-16T09:22:26+00:00",
+   "first_seen": "2026-11-16T15:40:02+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI avatar video generation model",
+    "search": "best AI avatar video generator",
+    "why": "Showcases flagship product with free trial to convert prospects into paying customers."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:40:02+00:00",
+   "prog": null,
+   "pub": null,
+   "mod": null,
+   "fp": "6a4c7d8fa059fc8a",
+   "dates_checked": "2026-11-16T15:40:02+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
   }
  },
  "sites": {
@@ -121225,7 +121527,7 @@
   },
   "HeyGen": {
    "initialized": true,
-   "count": 595
+   "count": 596
   },
   "Seedance": {
    "initialized": true,

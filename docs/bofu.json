@@ -3,7 +3,7 @@
   "title": "Bottom-of-funnel content tracker",
   "niche": "AI-powered video and image generation software (text-to-video, image-to-video, generative creative tools)",
   "you": "Runway",
-  "generated": "2026-11-16T04:39:48+00:00",
+  "generated": "2026-11-16T15:42:00+00:00",
   "state_updated": "2026-10-19T09:27:07+00:00",
   "repo": "nico497/Runway"
  },
@@ -86,8 +86,8 @@
   },
   {
    "name": "HeyGen",
-   "tracked": 600,
-   "considered": 451,
+   "tracked": 601,
+   "considered": 452,
    "own_pricing": "https://www.heygen.com/pricing",
    "hubs": [
     "https://www.heygen.com/customer-stories",

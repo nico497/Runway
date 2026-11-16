@@ -2,16 +2,16 @@
  "meta": {
   "title": "Competitor Radar",
   "niche": "AI-powered video and image generation software (text-to-video, image-to-video, generative creative tools)",
-  "updated": "2026-11-16T04:30:21+00:00",
+  "updated": "2026-11-16T15:40:02+00:00",
   "window_days": 30,
   "repo": "nico497/Runway",
   "first_run": true,
   "errors": [],
-  "pending": 0,
+  "pending": 10,
   "analysis_stale": false,
-  "per_run": 400,
+  "per_run": 200,
   "tracking_since": "2026-10-19T09:27:07+00:00",
-  "tracking_days": 27
+  "tracking_days": 28
  },
  "types": [
   [
@@ -48,58 +48,68 @@
   ]
  ],
  "analysis": {
-  "summary": "Rivals are racing to sit inside chat tools and to host the newest video models. Runway mostly refreshed old pages this month, while Pika and HeyGen added teaching and customer content.",
+  "summary": "Runway, Pika and Luma are all moving into ChatGPT and Claude. Runway ships the most model pages, but Pika is out-teaching it with prompt guides.",
   "points": [
    {
-    "text": "Pika published 11 new how-to pages, mostly prompt guides for each new model, while Runway's 7 how-tos are fewer and less model-specific.",
+    "text": "Runway updated 27 older pages, mostly pages for other companies' models like Kling, Veo and Wan. That points to a refresh push to stay current.",
     "names": [
-     "Pika"
+     "Runway"
     ]
    },
    {
-    "text": "Runway, Pika and Luma all pushed into ChatGPT and Claude, so chat-tool access is now standard, not a unique edge.",
+    "text": "Pika published 11 how-to pages this month, mostly prompt guides for models like Seedance 2.5 and Wan 3.0. Runway has 7 how-tos in total.",
     "names": [
      "Runway",
      "Pika"
     ]
    },
    {
-    "text": "HeyGen wrote 5 new case studies and many industry pages, while Runway added 1 new case study and 2 updated ones.",
+    "text": "HeyGen wrote industry pages for travel, real estate and finance, plus 5 case studies. Runway has 2 case studies and no industry pages in this data.",
     "names": [
+     "Runway",
      "HeyGen"
     ]
    }
   ],
   "plays": {
    "Runway": {
-    "play": "Refreshes model pages, ships robotics research and agents, and extends into chat tools and ads.",
+    "play": "Be the hub for top AI models, plus chat-app tools, agents, plugins and robotics research.",
     "aimed": "Creators, studios, marketers, developers"
    },
    "Pika": {
-    "play": "Prompt guides for every new model, plus launch of its fast H3 Flex model.",
-    "aimed": "Creators learning to prompt"
+    "play": "Teach prompting through Pika Academy and launch its fast H3 Flex model with deep technical content.",
+    "aimed": "Hands-on creators learning new models"
    },
    "Luma AI": {
-    "play": "Small output: creative agents, chat connections, one research paper, learning center.",
-    "aimed": "Creative professionals"
+    "play": "Small output. Pushes creative agents, a Claude and ChatGPT connector, and one research paper.",
+    "aimed": "Creative professionals, technical readers"
    },
    "Kling AI": {
-    "play": "No pages found in the data, so no content play can be read.",
+    "play": "No pages found in the data, so no play can be read.",
     "aimed": "Unknown"
    },
    "Seedance": {
     "play": "Huge templated site of 8,739 pages, but no new or updated pages this month.",
-    "aimed": "Search visitors seeking quick tools"
+    "aimed": "Search visitors looking for quick tools"
    },
    "HeyGen": {
-    "play": "Industry landing pages, customer stories and translation lessons around avatars and voice.",
-    "aimed": "Business teams, educators, small businesses"
+    "play": "Sell avatar and voice video to specific industries, backed by case studies and Academy lessons.",
+    "aimed": "Business teams, educators, small-business owners"
    }
   },
   "shared": [
    {
-    "title": "Third-party model hubs",
-    "text": "Runway has pages for Kling, Veo, Seedance and Wan. Pika has guides for Seedance 2.5 and Wan 3.0. HeyGen has a Veo 3.1 page. Everyone wants to be the place to try any model.",
+    "title": "Chat app integrations",
+    "text": "Runway has ChatGPT, Claude, Grok and Cursor pages. Pika is inside ChatGPT. Luma has a Claude and ChatGPT guide. Everyone wants to be where users already work.",
+    "names": [
+     "Runway",
+     "Pika",
+     "Luma AI"
+    ]
+   },
+   {
+    "title": "Other companies' models on their platform",
+    "text": "Runway has about 15 model pages. Pika writes guides for Seedance, Wan and GPT Image, and HeyGen has a Veo 3.1 page. Platforms sell choice, not one model.",
     "names": [
      "Runway",
      "Pika",
@@ -107,34 +117,35 @@
     ]
    },
    {
-    "title": "Research as credibility",
-    "text": "Runway published Praxis-1 and a real-time video paper. Luma published MARBLE. HeyGen updated its Code2Video benchmark. Technical papers signal model strength to experts.",
+    "title": "AI agents for creative work",
+    "text": "Runway has Agent and Ads pages, Luma pitches creative agents, and HeyGen has a Video Agent. Expect more 'do the work for me' pitches.",
     "names": [
      "Runway",
+     "Luma AI",
      "HeyGen"
     ]
    }
   ],
   "gaps": [
    {
-    "title": "Model-by-model prompt guides",
-    "text": "Pika is the only one publishing these, while Runway hosts many models with mostly landing pages. Runway could teach prompting for each model it hosts."
+    "title": "Filmmaker workflow guides",
+    "text": "Pika's guides cover prompts and ads. Runway has only one previs (pre-shoot planning) how-to. Step-by-step pages for film and production teams are open."
    },
    {
-    "title": "Industry-specific video pages",
-    "text": "HeyGen covers travel, real estate, finance and more. Runway's landing pages are model- or tool-led, so filmmaking, ads and commerce verticals are open."
+    "title": "Industry pages for film and ads",
+    "text": "HeyGen builds pages for many industries. No one here does this for commercials, studios, or commerce teams, so Runway could own those searches."
    },
    {
-    "title": "Step-by-step course for editors",
-    "text": "Runway has After Effects, Premiere and DaVinci plugins but few workflow tutorials in the data. Nobody else shows pro editing workflows."
+    "title": "Customer stories from production teams",
+    "text": "Runway has 2 case studies and HeyGen has 5, all in non-film fields. Real studio and ad-agency results are open for evaluators."
    }
   ],
   "versus": {
-   "Pika": "Pika publishes far more teaching pages (11 how-tos) and prompt guides, while Runway leans on landing pages (27) and product news.",
-   "Luma AI": "Luma publishes little (3 new pages); Runway outputs far more, though both offer chat-tool connections and research.",
-   "Kling AI": "No data on Kling's own site, though Runway and Pika both publish Kling 4.0 pages.",
-   "Seedance": "Seedance relies on thousands of templated pages and nothing new this month; Runway publishes fewer, hand-made pages and updates actively.",
-   "HeyGen": "HeyGen publishes more customer stories (5 new) and industry pages; Runway focuses on model access, research and agents."
+   "Pika": "Pika puts its energy into teaching and prompt guides. Runway puts more into model, product and plugin landing pages.",
+   "Luma AI": "Luma publishes far less, only 3 new pages. Runway's 21 new pages cover far more topics, including research and app launches.",
+   "Kling AI": "No pages appear in the data, so no comparison is possible. Runway still hosts Kling 3.0, O3 and 4.0 pages.",
+   "Seedance": "Seedance has thousands of templated pages but no activity this month. Runway publishes fewer pages but keeps them fresh. It also hosts Seedance 2.0 and 2.5 pages.",
+   "HeyGen": "HeyGen writes for industries and customer stories. Runway writes for model fans and developers, with fewer case studies and no industry pages."
   }
  },
  "sites": [
@@ -188,8 +199,8 @@
    "url": "https://runway.com/sitemap.xml",
    "pages": 369,
    "undated": 0,
-   "new_urls": 6,
-   "play": "Refreshes model pages, ships robotics research and agents, and extends into chat tools and ads.",
+   "new_urls": 0,
+   "play": "Be the hub for top AI models, plus chat-app tools, agents, plugins and robotics research.",
    "aimed": "Creators, studios, marketers, developers"
   },
   {
@@ -237,8 +248,8 @@
    "pages": 46,
    "undated": 30,
    "new_urls": 0,
-   "play": "Prompt guides for every new model, plus launch of its fast H3 Flex model.",
-   "aimed": "Creators learning to prompt"
+   "play": "Teach prompting through Pika Academy and launch its fast H3 Flex model with deep technical content.",
+   "aimed": "Hands-on creators learning new models"
   },
   {
    "name": "Luma AI",
@@ -285,8 +296,8 @@
    "pages": 25,
    "undated": 0,
    "new_urls": 0,
-   "play": "Small output: creative agents, chat connections, one research paper, learning center.",
-   "aimed": "Creative professionals"
+   "play": "Small output. Pushes creative agents, a Claude and ChatGPT connector, and one research paper.",
+   "aimed": "Creative professionals, technical readers"
   },
   {
    "name": "Kling AI",
@@ -327,7 +338,7 @@
    "pages": 0,
    "undated": 0,
    "new_urls": 0,
-   "play": "No pages found in the data, so no content play can be read.",
+   "play": "No pages found in the data, so no play can be read.",
    "aimed": "Unknown"
   },
   {
@@ -401,7 +412,7 @@
    "undated": 8739,
    "new_urls": 0,
    "play": "Huge templated site of 8,739 pages, but no new or updated pages this month.",
-   "aimed": "Search visitors seeking quick tools"
+   "aimed": "Search visitors looking for quick tools"
   },
   {
    "name": "Google Veo",
@@ -447,9 +458,9 @@
    "site": "https://www.heygen.com",
    "you": false,
    "n": 38,
-   "site_pages": 598,
-   "n_prev": 78,
-   "refreshed": 27,
+   "site_pages": 596,
+   "n_prev": 77,
+   "refreshed": 26,
    "mix": {
     "compare": 0,
     "howto": 6,
@@ -470,17 +481,20 @@
     "ai video for course creation",
     "ai video generation for home service businesses",
     "ai video generation for travel",
-    "ai video generation api for developers",
-    "ai avatar video generation"
+    "ai avatar video generation",
+    "ai video generation for teams"
    ],
-   "unclassified": 49,
-   "removed": 2,
+   "unclassified": 10,
+   "removed": 5,
    "removed_titles": [
+    "HeyGen Video: AI Video Generation API for Developers",
     "Data Handling Ethics and Content Authenticity at HeyGen | HeyGen",
+    "HeyGen Video 1: Text, Image and Reference to Video",
+    "HeyGen Voice 1: Speech-to-Speech, TTS & Voice Cloning",
     "Localization"
    ],
-   "new": 16,
-   "updated": 22,
+   "new": 17,
+   "updated": 21,
    "bulk": [],
    "programmatic": [
     {
@@ -493,14 +507,28 @@
    "error": null,
    "method": "sitemap",
    "url": "https://www.heygen.com/sitemap.xml",
-   "pages": 595,
+   "pages": 596,
    "undated": 0,
-   "new_urls": 0,
-   "play": "Industry landing pages, customer stories and translation lessons around avatars and voice.",
-   "aimed": "Business teams, educators, small businesses"
+   "new_urls": 1,
+   "play": "Sell avatar and voice video to specific industries, backed by case studies and Academy lessons.",
+   "aimed": "Business teams, educators, small-business owners"
   }
  ],
  "pages": [
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/models/heygen-avatar-6",
+   "title": "HeyGen Avatar 6: AI Avatar Model That Looks Like You",
+   "date": "2026-11-16T15:40:02+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-11-16T15:40:02+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI avatar video generation model",
+   "search": "best AI avatar video generator",
+   "why": "Showcases flagship product with free trial to convert prospects into paying customers."
+  },
   {
    "site": "Runway",
    "url": "https://runway.com/research",
@@ -780,6 +808,314 @@
    "topic": "Praxis-1 open-weight robotics model",
    "search": "open weight world action model robotics",
    "why": "Announces open-source robotics model release to attract developer adoption and technical credibility."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/integrations/adobe-express",
+   "title": "HeyGen + Adobe Express | Create Stunning AI-Powered Videos",
+   "date": "2026-11-12T20:03:07+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "HeyGen Adobe Express integration",
+   "search": "HeyGen Adobe Express plugin integration",
+   "why": "Shows how to use HeyGen within Adobe Express to convert ready buyers into integrated users."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/apps/ai-video-highlights",
+   "title": "AI Highlight Video Maker App for Instant Reels | HeyGen",
+   "date": "2026-11-12T20:02:51+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI highlight video maker app",
+   "search": "ai highlight video maker app",
+   "why": "Shows product capabilities to convert long videos into platform-ready highlight reels instantly."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/apps/ai-video-podcast",
+   "title": "AI Video Podcast : Turn Audio Into Polished Video",
+   "date": "2026-11-12T20:02:48+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video podcast generation tool",
+   "search": "turn podcast audio into video",
+   "why": "Showcases product features to convert free users into paying customers."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/apps/ugc-video-generator",
+   "title": "UGC Video Generator App for Ads at Scale | HeyGen",
+   "date": "2026-11-12T20:02:44+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "UGC video generator for ads",
+   "search": "UGC video generator for ads",
+   "why": "Demonstrates core product capability to convert high-intent buyers into free trial users."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/apps/batch-video-creator",
+   "title": "Batch Video Creator : Personalize Video at Scale",
+   "date": "2026-11-12T20:02:41+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Batch video creator for personalized videos",
+   "search": "batch video creator personalized videos at scale",
+   "why": "Showcases product capability to convert feature browsers into paying users."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/apps/ai-upscaler",
+   "title": "AI Video Upscaler App to Convert Videos to 4K Online | HeyGen",
+   "date": "2026-11-12T20:02:41+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video upscaling to 4K",
+   "search": "upscale video to 4K online",
+   "why": "Showcases product features to convert users to paid customers."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/apps/ai-product-placement-video",
+   "title": "AI Product Placement Video : Ship Branded Cuts Fast",
+   "date": "2026-11-12T19:35:39+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI product placement video generation",
+   "search": "AI product placement video creator",
+   "why": "Showcases a specific HeyGen feature to convert product marketing teams ready to solve placement videos."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/marketing/localized-video-campaigns",
+   "title": "Localized Video Marketing | Multilingual Campaigns | HeyGen",
+   "date": "2026-11-11T13:19:31+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Localized video marketing campaigns",
+   "search": "create multilingual video campaigns",
+   "why": "Targets marketing teams ready to solve global campaign production at scale."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/marketing/ugc-video-ads",
+   "title": "UGC Video Ads | AI Ad Creator for TikTok & Instagram | HeyGen",
+   "date": "2026-11-11T13:19:22+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "UGC video ads AI creator",
+   "search": "create UGC video ads TikTok Instagram",
+   "why": "Targets marketing teams ready to generate ad creative, showcasing cost and speed advantages."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/internal-communications",
+   "title": "Internal Communications Videos | Employee Video Platform | HeyGen",
+   "date": "2026-11-11T12:56:53+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Internal communications video platform",
+   "search": "create internal communications videos employees",
+   "why": "Targets HR and comms teams ready to solve workplace video at scale."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/alternatives/heygen-vs-synthesia",
+   "title": "HeyGen vs Synthesia : Which AI Video Generator is Best?",
+   "date": "2026-11-11T11:57:50+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "HeyGen vs Synthesia video generators",
+   "search": "HeyGen vs Synthesia which is better",
+   "why": "Captures buyers actively evaluating HeyGen against Synthesia before purchasing."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/the-magic-of-heygen",
+   "title": "The Magic of HeyGen | Real Creators, Real Results",
+   "date": "2026-11-09T16:16:17+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "case",
+   "stage": "comparing",
+   "topic": "AI video generation success stories",
+   "search": "how to create videos with AI",
+   "why": "Showcases customer wins to build trust with prospects evaluating video creation tools."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/compliance-training",
+   "title": "Compliance Training Videos | AI-Powered Training Software | HeyGen",
+   "date": "2026-11-09T16:16:02+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Compliance training videos AI",
+   "search": "compliance training video software",
+   "why": "Targets buyers ready to solve compliance training with AI video generation and multilingual deployment."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/agencies",
+   "title": "Video Production for Agencies | Scale Client Content | HeyGen",
+   "date": "2026-11-09T16:15:59+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video generation for agencies",
+   "search": "scale video production for agencies",
+   "why": "Shows how agencies can solve production bottlenecks and profit from their service offering."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/learning-development/employee-onboarding-videos",
+   "title": "Employee Onboarding Videos | New Hire Training Videos | HeyGen",
+   "date": "2026-11-09T16:15:35+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Employee onboarding video creation",
+   "search": "employee onboarding videos AI",
+   "why": "Targets HR buyers ready to solve onboarding scaling challenges with software."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/learning-development/internal-training-videos",
+   "title": "Internal Training Videos | Corporate Training Videos | HeyGen",
+   "date": "2026-11-09T16:15:21+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Internal training videos at scale",
+   "search": "create internal training videos corporate",
+   "why": "Targets L&D teams ready to solve training bottleneck with AI video solution."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/ebook",
+   "title": "AI Video eBooks | HeyGen Resources Hub",
+   "date": "2026-11-09T16:15:09+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "AI video guides and research reports",
+   "search": "AI video marketing guides eBooks",
+   "why": "Builds authority and captures early-stage researchers exploring AI video solutions."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/geniverse",
+   "title": "Explore the Geniverse. Learning, Events, Community for AI Video Creators | HeyGen",
+   "date": "2026-11-09T16:15:06+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "customers",
+   "topic": "AI video creator community platform",
+   "search": "AI video creation learning community",
+   "why": "Builds engagement and loyalty by offering education, events, and community for existing users."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/marketing",
+   "title": "Marketing Video Production | AI Video Creator for Teams | HeyGen",
+   "date": "2026-11-09T16:14:29+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video creation for marketing teams",
+   "search": "create marketing videos fast AI",
+   "why": "Targets marketing teams looking to produce videos faster and cheaper than traditional methods."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/academy/share-page/ai-editing-studio",
+   "title": "AI Editing Studio | HeyGen Academy",
+   "date": "2026-11-09T16:14:19+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "AI editing studio workspace setup",
+   "search": "how to set up HeyGen workspace",
+   "why": "Guides existing users through workspace configuration and team collaboration features."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/sales",
+   "title": "Sales Video Platform | Personalized Outreach & Enablement | HeyGen",
+   "date": "2026-11-09T16:13:34+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Personalized sales video generation platform",
+   "search": "personalized sales video outreach software",
+   "why": "Sells sales teams on personalized video for higher engagement and deal closure."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/chatgpt-app",
+   "title": "HeyGen ChatGPT App — AI Video from Any Prompt",
+   "date": "2026-11-09T16:12:46+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video generation from ChatGPT prompts",
+   "search": "create AI videos from ChatGPT prompts",
+   "why": "Showcases ChatGPT integration to convert users ready to generate videos with minimal effort."
   },
   {
    "site": "Runway",
@@ -1438,6 +1774,216 @@
    "topic": "AI voice cloning and text-to-speech",
    "search": "best AI voice cloning software",
    "why": "Showcases their #1-ranked voice model to convert buyers and position against ElevenLabs."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/customer-success",
+   "title": "Customer Onboarding Videos | AI Video for Customer Success | HeyGen",
+   "date": "2026-11-09T16:10:35+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI video for customer education",
+   "search": "customer onboarding video software",
+   "why": "Shows how HeyGen solves customer success teams' education and support scaling challenges."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/product-marketing",
+   "title": "Product Marketing Videos | Launch Content & Enablement | HeyGen",
+   "date": "2026-11-09T16:10:31+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Product marketing video creation",
+   "search": "product launch video creation software",
+   "why": "Showcases HeyGen's solution for product marketers needing fast, scalable launch video creation."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/academy/invite-members-to-your-workspace",
+   "title": "Invite Members to Your Workspace | HeyGen Academy",
+   "date": "2026-11-09T16:10:14+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "Inviting team members workspace",
+   "search": "how to invite members workspace",
+   "why": "Helps existing users set up team collaboration and manage workspace access."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/learning-development/multilingual-training-videos",
+   "title": "Multilingual Training Videos | Translated Training Content | HeyGen",
+   "date": "2026-11-09T16:10:11+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Multilingual training videos at scale",
+   "search": "multilingual training videos voice cloning",
+   "why": "Targets L&D buyers facing OSHA compliance and translation cost pressures."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/marketing/product-launch-videos",
+   "title": "Microlearning Videos | Short Training Videos | HeyGen",
+   "date": "2026-11-09T16:08:21+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Product launch videos creation",
+   "search": "create product launch videos fast",
+   "why": "Showcases solution for marketing teams launching products at scale to drive conversions."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/marketing/social-media-videos",
+   "title": "AI Social Media Videos | Social Video Maker | HeyGen",
+   "date": "2026-11-09T16:08:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI social media video creation",
+   "search": "create AI social media videos fast",
+   "why": "Shows marketing teams how HeyGen solves content scaling without hiring agencies."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/geniverse/meetups",
+   "title": "HeyGen Meetups. Local AI Video Events and Creator Community | HeyGen",
+   "date": "2026-11-09T16:07:10+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "customers",
+   "topic": "HeyGen community meetups and events",
+   "search": "AI video creator meetups local events",
+   "why": "Builds community, enables peer learning, and deepens user engagement and retention."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/learning-development",
+   "title": "Corporate Training Videos | AI Training Video Software | HeyGen",
+   "date": "2026-11-09T16:06:57+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI corporate training video creation",
+   "search": "create corporate training videos AI",
+   "why": "Targets L&D teams ready to solve training video bottleneck with AI automation."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/learning-development/product-training-videos",
+   "title": "Product Training Videos | Software Training Videos | HeyGen",
+   "date": "2026-11-09T16:06:14+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI product training videos at scale",
+   "search": "create product training videos software",
+   "why": "Targets L&D and sales teams ready to solve training inefficiencies with AI avatars."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/academy/setup-checklist/invite-members-to-your-workspace",
+   "title": "Invite Members to Your Workspace | HeyGen Academy",
+   "date": "2026-11-09T16:04:56+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "Invite members to workspace",
+   "search": "how to invite team members HeyGen",
+   "why": "Helps existing users set up team collaboration and workspace management."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/geniverse/ambassador-program",
+   "title": "HeyGen Ambassador Program. Apply to Lead AI Video Creators | HeyGen",
+   "date": "2026-11-09T16:04:24+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "customers",
+   "topic": "HeyGen Ambassador Program community",
+   "search": "AI video ambassador program",
+   "why": "Builds community advocates and deepens engagement with existing creators."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/academy/welcome-to-academy/managing-sub-workspaces",
+   "title": "Managing Sub-Workspaces | HeyGen Academy",
+   "date": "2026-11-09T16:03:55+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "managing sub-workspaces permissions roles",
+   "search": "how to manage sub-workspaces HeyGen",
+   "why": "Helps existing enterprise and agency users organize teams and control resource allocation."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/academy/setup-checklist/managing-sub-workspaces",
+   "title": "Managing Sub-Workspaces | HeyGen Academy",
+   "date": "2026-11-09T16:03:55+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "Managing sub-workspaces in HeyGen",
+   "search": "how to manage sub-workspaces HeyGen",
+   "why": "Helps existing customers organize teams and manage workspace permissions efficiently."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/business/learning-development/compliance-training-videos",
+   "title": "Compliance Training Videos | Regulatory Training Software | HeyGen",
+   "date": "2026-11-09T16:03:40+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Compliance training video generation",
+   "search": "compliance training videos SCORM LMS",
+   "why": "Targets L&D teams needing audit-ready compliance training solutions with SCORM integration."
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/academy/proofread",
+   "title": "Proofread translated videos in HeyGen | HeyGen",
+   "date": "2026-11-09T16:02:42+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-19T09:27:07+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "Proofread translated videos",
+   "search": "how to proofread translated videos",
+   "why": "Guides existing users through proofreading workflow in translation feature."
   },
   {
    "site": "HeyGen",
@@ -7501,7 +8047,7 @@
   },
   {
    "week": "2026-W47",
-   "date": "2026-11-16T04:30:21+00:00",
+   "date": "2026-11-16T15:40:02+00:00",
    "sites": {
     "Runway": {
      "new": 9,
@@ -7540,10 +8086,10 @@
      "pages": 0
     },
     "HeyGen": {
-     "new": 4,
+     "new": 5,
      "updated": 19,
-     "removed": 1,
-     "pages": 468
+     "removed": 4,
+     "pages": 466
     }
    }
   }
