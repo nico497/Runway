@@ -3,7 +3,7 @@
   "title": "Bottom-of-funnel content tracker",
   "niche": "AI-powered video and image generation software (text-to-video, image-to-video, generative creative tools)",
   "you": "Runway",
-  "generated": "2026-11-16T15:42:00+00:00",
+  "generated": "2026-11-23T18:02:48+00:00",
   "state_updated": "2026-10-19T09:27:07+00:00",
   "repo": "nico497/Runway"
  },
@@ -40,17 +40,18 @@
  "sites": [
   {
    "name": "Runway",
-   "tracked": 374,
-   "considered": 372,
+   "tracked": 456,
+   "considered": 454,
    "own_pricing": "https://runway.com/pricing",
    "hubs": [
-    "https://runway.com/news/customers"
+    "https://runway.com/news/customers",
+    "https://runway.com/compare"
    ]
   },
   {
    "name": "Pika",
-   "tracked": 46,
-   "considered": 46,
+   "tracked": 56,
+   "considered": 56,
    "own_pricing": "https://pika.art/pricing",
    "hubs": []
   },
@@ -72,8 +73,8 @@
   },
   {
    "name": "Seedance",
-   "tracked": 8739,
-   "considered": 2215,
+   "tracked": 9061,
+   "considered": 2127,
    "own_pricing": null,
    "hubs": []
   },
@@ -86,8 +87,8 @@
   },
   {
    "name": "HeyGen",
-   "tracked": 601,
-   "considered": 452,
+   "tracked": 608,
+   "considered": 456,
    "own_pricing": "https://www.heygen.com/pricing",
    "hubs": [
     "https://www.heygen.com/customer-stories",
@@ -116,8 +117,8 @@
   "D-ID"
  ],
  "excluded": {
-  "webinars, glossary, events and category pages": 21,
-  "templated pages": 6652,
+  "webinars, glossary, events and category pages": 24,
+  "templated pages": 7062,
   "translated pages": 2
  },
  "pages": [
@@ -605,79 +606,6 @@
   },
   {
    "site": "Seedance",
-   "url": "https://dreamina.capcut.com/ai-model/heygen-vs-synthesia",
-   "path": "/ai-model/heygen-vs-synthesia",
-   "type": "vs_rivals",
-   "targets": [
-    "HeyGen",
-    "Synthesia"
-   ]
-  },
-  {
-   "site": "Seedance",
-   "url": "https://dreamina.capcut.com/ai-model/dreamina-vs-midjourney-ai",
-   "path": "/ai-model/dreamina-vs-midjourney-ai",
-   "type": "vs_you",
-   "targets": [
-    "Midjourney"
-   ]
-  },
-  {
-   "site": "Seedance",
-   "url": "https://dreamina.capcut.com/ai-model/dreamina-vs-minimax",
-   "path": "/ai-model/dreamina-vs-minimax",
-   "type": "vs_you",
-   "targets": [
-    "Hailuo"
-   ]
-  },
-  {
-   "site": "Seedance",
-   "url": "https://dreamina.capcut.com/ai-model/dreamina-vs-runway-ai",
-   "path": "/ai-model/dreamina-vs-runway-ai",
-   "type": "vs_you",
-   "targets": [
-    "Runway"
-   ]
-  },
-  {
-   "site": "Seedance",
-   "url": "https://dreamina.capcut.com/ai-model/dreamina-vs-veo-3",
-   "path": "/ai-model/dreamina-vs-veo-3",
-   "type": "vs_you",
-   "targets": [
-    "Google Veo"
-   ]
-  },
-  {
-   "site": "Seedance",
-   "url": "https://dreamina.capcut.com/ai-model/minimax-h3-max-vs-seedance-2-5",
-   "path": "/ai-model/minimax-h3-max-vs-seedance-2-5",
-   "type": "vs_you",
-   "targets": [
-    "Hailuo"
-   ]
-  },
-  {
-   "site": "Seedance",
-   "url": "https://dreamina.capcut.com/ai-model/minimax-h3-vs-seedance-2-0",
-   "path": "/ai-model/minimax-h3-vs-seedance-2-0",
-   "type": "vs_you",
-   "targets": [
-    "Hailuo"
-   ]
-  },
-  {
-   "site": "Seedance",
-   "url": "https://dreamina.capcut.com/ai-model/minimax-h3-vs-seedance-2-5",
-   "path": "/ai-model/minimax-h3-vs-seedance-2-5",
-   "type": "vs_you",
-   "targets": [
-    "Hailuo"
-   ]
-  },
-  {
-   "site": "Seedance",
    "url": "https://dreamina.capcut.com/resource/dreamina-vs-pixverse",
    "path": "/resource/dreamina-vs-pixverse",
    "type": "vs_you",
@@ -952,6 +880,13 @@
    "site": "HeyGen",
    "url": "https://www.heygen.com/customer-stories/jim-mcdonner",
    "path": "/customer-stories/jim-mcdonner",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "HeyGen",
+   "url": "https://www.heygen.com/customer-stories/kate-bohn",
+   "path": "/customer-stories/kate-bohn",
    "type": "case",
    "targets": []
   },

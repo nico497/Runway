@@ -239,6 +239,54 @@
      "pages": 466
     }
    }
+  },
+  {
+   "week": "2026-W48",
+   "date": "2026-11-23T18:00:22+00:00",
+   "sites": {
+    "Runway": {
+     "new": 60,
+     "updated": 12,
+     "removed": 0,
+     "pages": 451
+    },
+    "Pika": {
+     "new": 10,
+     "updated": 5,
+     "removed": 0,
+     "pages": 56
+    },
+    "Luma AI": {
+     "new": 0,
+     "updated": 4,
+     "removed": 0,
+     "pages": 25
+    },
+    "Kling AI": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Seedance": {
+     "new": 9,
+     "updated": 0,
+     "removed": 0,
+     "pages": 2129
+    },
+    "Google Veo": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "HeyGen": {
+     "new": 7,
+     "updated": 12,
+     "removed": 0,
+     "pages": 473
+    }
+   }
   }
  ]
 }
